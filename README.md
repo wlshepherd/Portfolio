@@ -1,6 +1,6 @@
 # William's Computing Portfolio
 
-**Penetration Testing Projects:**
+**Cyber-Security Projects:**
 
 * [**IoT Security Penetration Testing Project:**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 
