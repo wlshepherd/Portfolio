@@ -1,6 +1,6 @@
 # William's Computing Portfolio
 
-**Skills:**
+**Penetration Testing Projects:**
 
 * (List your skills here)
 
