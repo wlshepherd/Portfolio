@@ -10,7 +10,7 @@
 
 * [**NBA 2023/2024 Season Analysis:**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 
-**Education:**
-* MSc Cyber-Security & Technology - Cardiff University (2023 - 2024)
-* BSc Computer Science - Cardiff University (2020 - 2023)
+## Education:
+MSc Cyber-Security & Technology - Cardiff University (2023 - 2024)
+BSc Computer Science - Cardiff University (2020 - 2023)
 
