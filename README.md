@@ -16,7 +16,7 @@
 
 **Front-End Development Projects:**
 
-Still in Development
+* Still in Development
 
 ## Education:
 MSc Cyber-Security & Technology - Cardiff University (2023 - 2024)
