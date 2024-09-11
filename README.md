@@ -1,1 +1,1 @@
-# William L Shepherd's Computer Science Portfolio
+# William L.S's Portfolio
