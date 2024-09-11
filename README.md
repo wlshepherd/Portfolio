@@ -1,4 +1,4 @@
-# William L.S's Portfolio
+# William's Computing Portfolio
 
 **Skills:**
 
