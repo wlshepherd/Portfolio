@@ -22,7 +22,7 @@
 
 **Machine Learning Projects:**
 
-* Phishing Email Detection (Python):
+* Phishing URL Detection (Python):
 
 
 ## Education:
