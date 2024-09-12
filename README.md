@@ -13,7 +13,7 @@
 **Data Analysis Projects:**
 
 * [**NBA 2023/2024 Season Analysis (Python):**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA%20Data%20Analysis%20Project/NBA_Data_Analysis_Project.ipynb)
-* United States Election 2020 Analysis (R):
+* What Makes a Pokémon Legendary? (R):
 
 
 **Full-Stack Development Projects:**
