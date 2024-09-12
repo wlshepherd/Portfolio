@@ -6,7 +6,7 @@
 
 **Cyber-Security Projects:**
 
-* [**TP-Link LB130 Penetration Testing (MSc Dissertation):**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
+* [**TP-Link LB130 IoT Environment Penetration Testing (MSc Dissertation):**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 * [**Penetration Testing & Malware Analysis Coursework:**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 * [**Basic Python Pseudo Spyware:**](https://github.com/wlshepherd/My_Portolio/blob/main/main.py)
 
