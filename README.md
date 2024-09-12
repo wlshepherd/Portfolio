@@ -20,6 +20,11 @@
 
 * Django Photography Website: (On the way)
 
+**Machine Learning Projects:**
+
+* Phishing Email Detection (Python): (On the way)
+
+
 ## Education:
 MSc Cyber-Security & Technology - Cardiff University (2023 - 2024)
 
