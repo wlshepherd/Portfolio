@@ -16,7 +16,7 @@
 
 **Full-Stack Development Projects:**
 
-* Still in Development
+* Django Photography Website (On the way)
 
 ## Education:
 MSc Cyber-Security & Technology - Cardiff University (2023 - 2024)
