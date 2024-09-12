@@ -12,7 +12,7 @@
 
 **Data Analysis Projects:**
 
-* [**NBA 2023/2024 Season Analysis:**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
+* [**NBA 2023/2024 Season Analysis:**]((https://github.com/wlshepherd/My_Portolio/blob/main/NBA%20Data%20Analysis%20Project/NBA_Data_Analysis_Project.ipynb))
 
 **Front-End Development Projects:**
 
