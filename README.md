@@ -18,11 +18,11 @@
 
 **Full-Stack Development Projects:**
 
-* Django Photography Website: (On the way)
+* Personal Photography Portfolio (Django):
 
 **Machine Learning Projects:**
 
-* Phishing Email Detection (Python): (On the way)
+* Phishing Email Detection (Python):
 
 
 ## Education:
