@@ -17,7 +17,7 @@
 
 **Full-Stack Development Projects:**
 
-* Personal Photography Portfolio (Django, CSS, HTML, JavaScript, SQL):
+* Personal Photography Portfolio Website (Django, CSS, HTML, JavaScript, SQL):
 
 **Machine Learning Projects:**
 
