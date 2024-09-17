@@ -22,6 +22,10 @@
 **Machine Learning Projects:**
 
 * Phishing URL Detection (Python):
+  
+**Video-Games Projects:**
+
+* 90's / Early 2000s Fantasy RPG Game (C#):
 
 
 ## Education:
