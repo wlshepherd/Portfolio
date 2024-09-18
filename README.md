@@ -11,21 +11,21 @@
 
 **Data Analysis Projects:**
 
-* [**NBA 2023/2024 Season Analysis (Python):**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA%20Data%20Analysis%20Project/NBA_Data_Analysis_Project.ipynb)
-* What Makes a Pokémon Legendary? (R):
+* [**NBA 2023/2024 Season Analysis (Python):**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA%20Data%20Analysis%20Project/NBA_Data_Analysis_Project.ipynb) (Currently working on)
+* What Makes a Pokémon Legendary? (R): (Not started yet)
 
 
 **Full-Stack Development Projects:**
 
-* Personal Photography Portfolio Website (Django):
+* Personal Photography Portfolio Website (Django): (Currently working on)
 
 **Machine Learning Projects:**
 
-* Phishing URL Detection (Python):
+* Phishing URL Detection (Python): (Not started yet)
   
 **Video-Games Projects:**
 
-* 90's / Early 2000s Fantasy RPG Game (C#):
+* 90's / Early 2000s Fantasy RPG Game (C#): (Not started yet)
 
 
 ## Education:
