@@ -11,7 +11,7 @@
 * [**Basic Pseudo Spyware (Python):**](https://github.com/wlshepherd/My_Portolio/tree/main/Pseudo%20Spyware%20Side%20Project)
 * Phishing URL Detection (Python):
 
-**Data Analysis Projects:**
+**Data Analysis:**
 
 * [**NBA 2023/2024 Season Analysis & MVP Prediction (Python):**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 * Pokémon Dataset Analysis & Legendary Prediction (R):
