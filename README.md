@@ -19,7 +19,7 @@
 **Web Application Development & Design:**
 
 * Personal Photography Portfolio Website (Django)
-* 
+* (Ruby)
 
 
 
