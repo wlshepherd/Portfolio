@@ -2,7 +2,7 @@
 
 ## Description:
 
-## Portfolio Projects:
+## Projects:
 
 **Cyber-Security Projects:**
 
