@@ -16,7 +16,7 @@
 * Pokémon Dataset Analysis & Legendary Prediction (R):
 
 
-**Website Application Development:**
+**Web Application Development & Design:**
 
 * Personal Photography Portfolio Website (Django):
 
