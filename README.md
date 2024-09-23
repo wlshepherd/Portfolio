@@ -23,7 +23,7 @@
   
 **Video-Games Projects:**
 
-* 90's / Early 2000s Fantasy RPG Game (C#):
+* GBA Style Fantasy RPG Game (C#):
 
 ## Education:
 MSc Cyber-Security & Technology - Cardiff University (2023 - 2024)
