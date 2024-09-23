@@ -21,10 +21,6 @@
 
 * Personal Photography Portfolio Website (Django):
 
-  
-**Video-Games Projects:**
-
-* GBA Style Fantasy RPG Game (C#):
 
 ## Education:
 MSc Cyber-Security & Technology - Cardiff University (2023 - 2024)
