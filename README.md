@@ -21,6 +21,7 @@
 
 **Machine Learning Projects:**
 
+* NBA 2023/2024 Simple MVP Predictor (Python):
 * Phishing URL Detection (Python):
   
 **Video-Games Projects:**
