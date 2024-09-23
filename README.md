@@ -8,6 +8,7 @@
 
 * [**TP-Link LB130 IoT Environment Penetration Testing (MSc Dissertation):**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 * [**Basic Pseudo Spyware (Python):**](https://github.com/wlshepherd/My_Portolio/tree/main/Pseudo%20Spyware%20Side%20Project)
+* Phishing URL Detection (Python):
 
 **Data Analysis Projects:**
 
@@ -19,10 +20,6 @@
 
 * Personal Photography Portfolio Website (Django):
 
-**Machine Learning Projects:**
-
-* NBA 2023/2024 Simple MVP Predictor (Python):
-* Phishing URL Detection (Python):
   
 **Video-Games Projects:**
 
