@@ -4,7 +4,7 @@
 
 ## Projects:
 
-**Cyber-Security Projects:**
+**Cyber-Security:**
 
 * [**TP-Link LB130 IoT Environment Penetration Testing (MSc Dissertation):**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
   
