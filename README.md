@@ -1,7 +1,7 @@
 # William's Computing Portfolio
 
 ## Description:
-Hello, I'm Will! I've recently graduated from Cardiff University and have a background in computer-science and cyber security
+Hello, I'm William! I've recently completed my cyber security & technology masters degree from Cardiff University and currently looking to get my first job in the computing / technology industry. I have a strong interest a wide range of fields, including the following: cyber security, data analysis, front-end development and digital forensics. 
 
 ## Projects:
 
@@ -23,7 +23,7 @@ Hello, I'm Will! I've recently graduated from Cardiff University and have a back
 * Beginner's Level Web-App Security Testing Challenge (PHP)
 
 ## Academic Qualifications:
-MSc Cyber-Security & Technology - Cardiff University (2023 - 2024)
+MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
 
 BSc Computer Science - Cardiff University (2020 - 2023)
 
