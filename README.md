@@ -1,6 +1,7 @@
 # William's Computing Portfolio
 
 ## Description:
+Hello, I'm Will! I've recently graduated from Cardiff University and have a background in computer-science and cyber security
 
 ## Projects:
 
