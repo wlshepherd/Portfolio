@@ -21,11 +21,6 @@
 * Personal Photography Portfolio Website (Django)
 * (PHP)
 
-**Others:**
-* [**Text-Based RPG Game (Python)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
-
-
-
 ## Academic Qualifications:
 MSc Cyber-Security & Technology - Cardiff University (2023 - 2024)
 
