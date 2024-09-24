@@ -19,7 +19,7 @@
 **Web Application Development & Design:**
 
 * Personal Photography Portfolio Website (Django)
-* Begginer's Level Web-App Security Testing (PHP)
+* Beginer's Level Web-App Security Testing (PHP)
 
 ## Academic Qualifications:
 MSc Cyber-Security & Technology - Cardiff University (2023 - 2024)
