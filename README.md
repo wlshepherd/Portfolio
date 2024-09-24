@@ -9,6 +9,7 @@ Hello, I'm William! I've recently completed my cyber security & technology maste
 
 * [**TP-Link LB130 IoT Environment Penetration Testing (MSc Dissertation)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 * Detecting Phishing URLs with Machine Learning (Python)
+* Beginner's Level Web-App Security Testing Challenge (PHP)
 * [**Simple Pseudo Spyware (Python)**](https://github.com/wlshepherd/My_Portolio/tree/main/Pseudo%20Spyware%20Side%20Project)
 
 **Data Analysis:**
@@ -20,7 +21,6 @@ Hello, I'm William! I've recently completed my cyber security & technology maste
 **Web Application Development & Design:**
 
 * Personal Photography Portfolio Website (Django)
-* Beginner's Level Web-App Security Testing Challenge (PHP)
 
 ## Academic Qualifications:
 MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
