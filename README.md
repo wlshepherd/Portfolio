@@ -22,7 +22,7 @@
 * (PHP)
 
 **Others:**
-* Text-Based RPG Game (Python)
+* [**Text-Based RPG Game (Python)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 
 
 
