@@ -21,6 +21,9 @@
 * Personal Photography Portfolio Website (Django)
 * (PHP)
 
+**Others:**
+* Text-Based RPG Game (Python)
+
 
 
 ## Academic Qualifications:
