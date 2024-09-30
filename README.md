@@ -16,6 +16,7 @@ Hello, I'm William! I've recently completed my cyber security & technology maste
 
 * [**NBA 2023/2024 Season Analysis & MVP Prediction (Python)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 * Pokémon Dataset Analysis & Legendary Prediction (R)
+* United Kingdom Crime Analysis (SQL)
 
 
 **Web Application Development & Design:**
