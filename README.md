@@ -27,8 +27,6 @@ Hello, I'm William! I've recently completed my cyber security & technology maste
 MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
 
 ## Certificates:
-
-
-BSc Computer Science - Cardiff University (2020 - 2023)
+N/A
 
 
