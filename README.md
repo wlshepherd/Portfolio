@@ -24,8 +24,8 @@ Hello, I'm William! I've recently completed my cyber security & technology maste
 * Personal Photography Portfolio Website (Django)
 
 ## Academic Qualifications:
-MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
-BSc Computer Science - Cardiff University (2020 - 2023)
+* MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
+* BSc Computer Science - Cardiff University (2020 - 2023)
 
 ## Certificates:
 N/A
