@@ -21,7 +21,7 @@ Hello, I'm William! I've recently completed my cyber security & technology maste
 
 **Web Application Development & Design:**
 * Personal Photography Portfolio Website (Django)
-* Privacy-Based Social Media Platform (Ruby)
+* Privacy-Based Social Media Platform (Ruby on Rails)
 
 ## Academic Qualifications:
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
