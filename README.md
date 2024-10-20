@@ -12,7 +12,7 @@ Hello, I'm William! I've recently completed my cyber security & technology maste
 * Beginner's Level Web-App Security Testing Challenge (PHP)
 * [**Simple Pseudo Spyware (Python)**](https://github.com/wlshepherd/My_Portolio/tree/main/Pseudo%20Spyware%20Side%20Project)
 
-**Data Analysis:**
+**Data Analysis & Data Science:**
 
 * [**NBA 2023/2024 Season Analysis & MVP Prediction (Python)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 * Pokémon Dataset Analysis & Legendary Prediction (R)
