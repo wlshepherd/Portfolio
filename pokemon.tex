@@ -1,0 +1,906 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Pokémon Dataset Analysis \& Legendary Prediction},
+  pdfauthor={William L Shepherd},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Pokémon Dataset Analysis \& Legendary Prediction}
+\author{William L Shepherd}
+\date{August 12, 2023}
+
+\begin{document}
+\maketitle
+
+\subsection{1. Introduction}\label{introduction}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{include\_graphics}\NormalTok{(}\StringTok{"hero{-}img{-}3980048463.png"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{hero-img-3980048463.png} This is a simple project which
+I undertook last year (based on a DataCamps project), which aims to
+introduce simple data analysis and machine learning concepts using a
+data set of one of my favorite video-game franchises. The key objectives
+of the project are the following:
+
+\begin{itemize}
+\item
+  To develop foundation skills in data cleaning, analysis and
+  visualization.
+\item
+  To familiarize myself with the R language.
+\item
+  To develop simple machine learning models utilizing the Random Forest
+  and Decision Tree algorithms in order to predict whether Pokémon are
+  legendary or not.
+\end{itemize}
+
+Hyperlink to data set:
+\url{https://www.kaggle.com/datasets/rounakbanik/pokemon}
+
+Hyperlink to banner picture:
+\url{https://pokemonletsgo.pokemon.com/en-gb/how-to-play/}
+
+\subsection{2. Implementation}\label{implementation}
+
+\subsubsection{2.1 Loading Libraries}\label{loading-libraries}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(datasets) }
+\FunctionTok{library}\NormalTok{(}\StringTok{"tidyverse"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## -- Attaching core tidyverse packages ------------------------ tidyverse 2.0.0 --
+## v dplyr     1.1.4     v readr     2.1.5
+## v forcats   1.0.0     v stringr   1.5.1
+## v ggplot2   3.5.1     v tibble    3.2.1
+## v lubridate 1.9.3     v tidyr     1.3.1
+## v purrr     1.0.2     
+## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()
+## i Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(ggplot2)}
+\FunctionTok{library}\NormalTok{(rgl)}
+\FunctionTok{library}\NormalTok{(plotly)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+## Attaching package: 'plotly'
+## 
+## The following object is masked from 'package:ggplot2':
+## 
+##     last_plot
+## 
+## The following object is masked from 'package:stats':
+## 
+##     filter
+## 
+## The following object is masked from 'package:graphics':
+## 
+##     layout
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(dplyr)}
+\FunctionTok{library}\NormalTok{(gridExtra)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+## Attaching package: 'gridExtra'
+## 
+## The following object is masked from 'package:dplyr':
+## 
+##     combine
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(RColorBrewer)}
+\FunctionTok{library}\NormalTok{(ggrepel)}
+\FunctionTok{library}\NormalTok{(caret)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Loading required package: lattice
+## 
+## Attaching package: 'caret'
+## 
+## The following object is masked from 'package:purrr':
+## 
+##     lift
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(e1071)}
+\FunctionTok{library}\NormalTok{(randomForest)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## randomForest 4.7-1.2
+## Type rfNews() to see new features/changes/bug fixes.
+## 
+## Attaching package: 'randomForest'
+## 
+## The following object is masked from 'package:gridExtra':
+## 
+##     combine
+## 
+## The following object is masked from 'package:dplyr':
+## 
+##     combine
+## 
+## The following object is masked from 'package:ggplot2':
+## 
+##     margin
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(tree)}
+\FunctionTok{library}\NormalTok{(pROC)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Type 'citation("pROC")' for a citation.
+## 
+## Attaching package: 'pROC'
+## 
+## The following objects are masked from 'package:stats':
+## 
+##     cov, smooth, var
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(RColorBrewer)}
+\end{Highlighting}
+\end{Shaded}
+
+\subsubsection{2.2 Importing Data}\label{importing-data}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{df }\OtherTok{\textless{}{-}} \FunctionTok{read.csv}\NormalTok{(}\StringTok{"pokemon.csv"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\subsubsection{2.3 Cleaning Data}\label{cleaning-data}
+
+Here I'm selecting the most relevant metrics which I want to analyse,
+alongside ones which will be used for the machine learning models, to
+predict whether a Pokemon is legendary or not. I'm leaving out metrics
+such as the following: capture\_rate, abilities, experience growth, base
+happiness, percentage growth and type 2.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{df }\OtherTok{\textless{}{-}}\NormalTok{ df }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{select}\NormalTok{(name, type1, attack, defense, height\_m, sp\_attack, sp\_defense, speed, weight\_kg, generation, is\_legendary, hp)}
+\end{Highlighting}
+\end{Shaded}
+
+\subsubsection{2.4 Displaying the Dataset's
+Head}\label{displaying-the-datasets-head}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{head}\NormalTok{(df)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##         name type1 attack defense height_m sp_attack sp_defense speed weight_kg
+## 1  Bulbasaur grass     49      49      0.7        65         65    45       6.9
+## 2    Ivysaur grass     62      63      1.0        80         80    60      13.0
+## 3   Venusaur grass    100     123      2.0       122        120    80     100.0
+## 4 Charmander  fire     52      43      0.6        60         50    65       8.5
+## 5 Charmeleon  fire     64      58      1.1        80         65    80      19.0
+## 6  Charizard  fire    104      78      1.7       159        115   100      90.5
+##   generation is_legendary hp
+## 1          1            0 45
+## 2          1            0 60
+## 3          1            0 80
+## 4          1            0 39
+## 5          1            0 58
+## 6          1            0 78
+\end{verbatim}
+
+\subsubsection{2.5 Data Analysis}\label{data-analysis}
+
+\paragraph{2.5.1 Displaying the Number of Pokemon per
+Generation}\label{displaying-the-number-of-pokemon-per-generation}
+
+Generations in Pokémon simply refers to what generation of games a
+particular Pokémon was introduced in (e.g.~Pikachu was introduced in
+Generation I, whilst Dialga was in IV). The generation with the most
+legendary Pokémon is the seventh, which has 17.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pokemon\_by\_gen }\OtherTok{\textless{}{-}}\NormalTok{ df }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{group\_by}\NormalTok{(generation) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{summarize}\NormalTok{(}\AttributeTok{Count =} \FunctionTok{n}\NormalTok{())}
+
+\NormalTok{colors }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\StringTok{\textquotesingle{}rgba(93, 164, 214, 0.8)\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}rgba(255, 144, 14, 0.8)\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}rgba(44, 160, 101, 0.8)\textquotesingle{}}\NormalTok{, }
+            \StringTok{\textquotesingle{}rgba(255, 65, 54, 0.8)\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}rgba(207, 114, 255, 0.8)\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}rgba(127, 96, 0, 0.8)\textquotesingle{}}\NormalTok{)}
+
+\FunctionTok{plot\_ly}\NormalTok{(pokemon\_by\_gen, }\AttributeTok{x =} \SpecialCharTok{\textasciitilde{}}\NormalTok{generation, }\AttributeTok{y =} \SpecialCharTok{\textasciitilde{}}\NormalTok{Count,}
+        \AttributeTok{type =} \StringTok{\textquotesingle{}bar\textquotesingle{}}\NormalTok{,}
+        \AttributeTok{marker =} \FunctionTok{list}\NormalTok{(}\AttributeTok{color =}\NormalTok{ colors, }\AttributeTok{opacity =} \FloatTok{0.8}\NormalTok{),}
+        \AttributeTok{text =} \SpecialCharTok{\textasciitilde{}}\FunctionTok{paste}\NormalTok{(}\StringTok{\textquotesingle{}Generation:\textquotesingle{}}\NormalTok{, generation, }\StringTok{\textquotesingle{}Count:\textquotesingle{}}\NormalTok{, Count),}
+        \AttributeTok{hoverinfo =} \StringTok{\textquotesingle{}text\textquotesingle{}}\NormalTok{,}
+        \AttributeTok{textposition =} \StringTok{\textquotesingle{}none\textquotesingle{}}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%}
+  
+\FunctionTok{layout}\NormalTok{(}\AttributeTok{title =} \FunctionTok{list}\NormalTok{(}\AttributeTok{text =} \StringTok{\textquotesingle{}Pokémon per Generation\textquotesingle{}}\NormalTok{, }\AttributeTok{font =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{24}\NormalTok{)),}
+       \AttributeTok{xaxis =} \FunctionTok{list}\NormalTok{(}\AttributeTok{title =} \StringTok{\textquotesingle{}Generation\textquotesingle{}}\NormalTok{, }\AttributeTok{titlefont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{18}\NormalTok{), }\AttributeTok{tickfont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{14}\NormalTok{)),}
+       \AttributeTok{yaxis =} \FunctionTok{list}\NormalTok{(}\AttributeTok{title =} \StringTok{\textquotesingle{}Count\textquotesingle{}}\NormalTok{, }\AttributeTok{titlefont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{18}\NormalTok{), }\AttributeTok{tickfont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{14}\NormalTok{)),}
+       \AttributeTok{plot\_bgcolor =} \StringTok{\textquotesingle{}rgba(245, 246, 249, 1)\textquotesingle{}}\NormalTok{,}
+       \AttributeTok{paper\_bgcolor =} \StringTok{\textquotesingle{}rgba(245, 246, 249, 1)\textquotesingle{}}\NormalTok{,}
+       \AttributeTok{margin =} \FunctionTok{list}\NormalTok{(}\AttributeTok{l =} \DecValTok{50}\NormalTok{, }\AttributeTok{r =} \DecValTok{50}\NormalTok{, }\AttributeTok{b =} \DecValTok{100}\NormalTok{, }\AttributeTok{t =} \DecValTok{100}\NormalTok{, }\AttributeTok{pad =} \DecValTok{4}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pokemon\_by\_gen\_legendary }\OtherTok{\textless{}{-}}\NormalTok{ df }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{filter}\NormalTok{(is\_legendary }\SpecialCharTok{==} \ConstantTok{TRUE}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{group\_by}\NormalTok{(generation) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{summarize}\NormalTok{(}\AttributeTok{Count =} \FunctionTok{n}\NormalTok{())}
+
+\FunctionTok{plot\_ly}\NormalTok{(pokemon\_by\_gen\_legendary, }\AttributeTok{x =} \SpecialCharTok{\textasciitilde{}}\NormalTok{generation, }\AttributeTok{y =} \SpecialCharTok{\textasciitilde{}}\NormalTok{Count,}
+        \AttributeTok{type =} \StringTok{\textquotesingle{}bar\textquotesingle{}}\NormalTok{,}
+        \AttributeTok{marker =} \FunctionTok{list}\NormalTok{(}\AttributeTok{color =}\NormalTok{ colors, }\AttributeTok{opacity =} \FloatTok{0.8}\NormalTok{),}
+        \AttributeTok{text =} \SpecialCharTok{\textasciitilde{}}\FunctionTok{paste}\NormalTok{(}\StringTok{\textquotesingle{}Generation:\textquotesingle{}}\NormalTok{, generation, }\StringTok{\textquotesingle{}Count:\textquotesingle{}}\NormalTok{, Count),}
+        \AttributeTok{hoverinfo =} \StringTok{\textquotesingle{}text\textquotesingle{}}\NormalTok{,}
+        \AttributeTok{textposition =} \StringTok{\textquotesingle{}none\textquotesingle{}}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%}
+  
+\FunctionTok{layout}\NormalTok{(}\AttributeTok{title =} \FunctionTok{list}\NormalTok{(}\AttributeTok{text =} \StringTok{\textquotesingle{}Legendary Pokémon per Generation\textquotesingle{}}\NormalTok{, }\AttributeTok{font =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{24}\NormalTok{)),}
+       \AttributeTok{xaxis =} \FunctionTok{list}\NormalTok{(}\AttributeTok{title =} \StringTok{\textquotesingle{}Generation\textquotesingle{}}\NormalTok{, }\AttributeTok{titlefont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{18}\NormalTok{), }\AttributeTok{tickfont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{14}\NormalTok{)),}
+       \AttributeTok{yaxis =} \FunctionTok{list}\NormalTok{(}\AttributeTok{title =} \StringTok{\textquotesingle{}Count\textquotesingle{}}\NormalTok{, }\AttributeTok{titlefont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{18}\NormalTok{), }\AttributeTok{tickfont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{14}\NormalTok{)),}
+       \AttributeTok{plot\_bgcolor =} \StringTok{\textquotesingle{}rgba(245, 246, 249, 1)\textquotesingle{}}\NormalTok{,}
+       \AttributeTok{paper\_bgcolor =} \StringTok{\textquotesingle{}rgba(245, 246, 249, 1)\textquotesingle{}}\NormalTok{,}
+       \AttributeTok{margin =} \FunctionTok{list}\NormalTok{(}\AttributeTok{l =} \DecValTok{50}\NormalTok{, }\AttributeTok{r =} \DecValTok{50}\NormalTok{, }\AttributeTok{b =} \DecValTok{100}\NormalTok{, }\AttributeTok{t =} \DecValTok{100}\NormalTok{, }\AttributeTok{pad =} \DecValTok{4}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\paragraph{2.5.2 Displaying the Number of Pokemon per
+Type}\label{displaying-the-number-of-pokemon-per-type}
+
+As shown by the graph below, the most common type of legendary Pokemon
+is psychic, with as of generation 7, the absence of poison or fighting
+legends.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pokemon\_by\_type }\OtherTok{\textless{}{-}}\NormalTok{ df }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{group\_by}\NormalTok{(type1) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{summarize}\NormalTok{(}\AttributeTok{Count =} \FunctionTok{n}\NormalTok{())}
+
+\FunctionTok{plot\_ly}\NormalTok{(pokemon\_by\_type, }\AttributeTok{x =} \SpecialCharTok{\textasciitilde{}}\NormalTok{type1, }\AttributeTok{y =} \SpecialCharTok{\textasciitilde{}}\NormalTok{Count,}
+        \AttributeTok{type =} \StringTok{\textquotesingle{}bar\textquotesingle{}}\NormalTok{,}
+        \AttributeTok{marker =} \FunctionTok{list}\NormalTok{(}\AttributeTok{color =} \SpecialCharTok{\textasciitilde{}}\NormalTok{Count, }\AttributeTok{colorscale =} \StringTok{\textquotesingle{}Viridis\textquotesingle{}}\NormalTok{, }\AttributeTok{opacity =} \FloatTok{0.8}\NormalTok{),}
+        \AttributeTok{text =} \SpecialCharTok{\textasciitilde{}}\FunctionTok{paste}\NormalTok{(}\StringTok{\textquotesingle{}Type:\textquotesingle{}}\NormalTok{, type1, }\StringTok{\textquotesingle{}\textless{}br\textgreater{}Count:\textquotesingle{}}\NormalTok{, Count),}
+        \AttributeTok{hoverinfo =} \StringTok{\textquotesingle{}text\textquotesingle{}}\NormalTok{,}
+        \AttributeTok{textposition =} \StringTok{\textquotesingle{}none\textquotesingle{}}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%}
+
+\FunctionTok{layout}\NormalTok{(}\AttributeTok{title =} \FunctionTok{list}\NormalTok{(}\AttributeTok{text =} \StringTok{\textquotesingle{}Pokémon by Type\textquotesingle{}}\NormalTok{, }\AttributeTok{font =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{24}\NormalTok{)),}
+       \AttributeTok{xaxis =} \FunctionTok{list}\NormalTok{(}\AttributeTok{title =} \StringTok{\textquotesingle{}Type\textquotesingle{}}\NormalTok{, }\AttributeTok{titlefont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{18}\NormalTok{), }\AttributeTok{tickfont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{14}\NormalTok{)),}
+       \AttributeTok{yaxis =} \FunctionTok{list}\NormalTok{(}\AttributeTok{title =} \StringTok{\textquotesingle{}Count\textquotesingle{}}\NormalTok{, }\AttributeTok{titlefont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{18}\NormalTok{), }\AttributeTok{tickfont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{14}\NormalTok{)),}
+       \AttributeTok{plot\_bgcolor =} \StringTok{\textquotesingle{}rgba(245, 246, 249, 1)\textquotesingle{}}\NormalTok{,}
+       \AttributeTok{paper\_bgcolor =} \StringTok{\textquotesingle{}rgba(245, 246, 249, 1)\textquotesingle{}}\NormalTok{,}
+       \AttributeTok{margin =} \FunctionTok{list}\NormalTok{(}\AttributeTok{l =} \DecValTok{50}\NormalTok{, }\AttributeTok{r =} \DecValTok{50}\NormalTok{, }\AttributeTok{b =} \DecValTok{100}\NormalTok{, }\AttributeTok{t =} \DecValTok{100}\NormalTok{, }\AttributeTok{pad =} \DecValTok{4}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pokemon\_by\_type }\OtherTok{\textless{}{-}}\NormalTok{ df }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{filter}\NormalTok{(is\_legendary }\SpecialCharTok{==} \DecValTok{1}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{group\_by}\NormalTok{(type1) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{summarize}\NormalTok{(}\AttributeTok{Count =} \FunctionTok{n}\NormalTok{())}
+
+\CommentTok{\# Rest of the code remains the same}
+\FunctionTok{plot\_ly}\NormalTok{(pokemon\_by\_type, }\AttributeTok{x =} \SpecialCharTok{\textasciitilde{}}\NormalTok{type1, }\AttributeTok{y =} \SpecialCharTok{\textasciitilde{}}\NormalTok{Count,}
+        \AttributeTok{type =} \StringTok{\textquotesingle{}bar\textquotesingle{}}\NormalTok{,}
+        \AttributeTok{marker =} \FunctionTok{list}\NormalTok{(}\AttributeTok{color =} \SpecialCharTok{\textasciitilde{}}\NormalTok{Count, }\AttributeTok{colorscale =} \StringTok{\textquotesingle{}Viridis\textquotesingle{}}\NormalTok{, }\AttributeTok{opacity =} \FloatTok{0.8}\NormalTok{),}
+        \AttributeTok{text =} \SpecialCharTok{\textasciitilde{}}\FunctionTok{paste}\NormalTok{(}\StringTok{\textquotesingle{}Type:\textquotesingle{}}\NormalTok{, type1, }\StringTok{\textquotesingle{}\textless{}br\textgreater{}Count:\textquotesingle{}}\NormalTok{, Count),}
+        \AttributeTok{hoverinfo =} \StringTok{\textquotesingle{}text\textquotesingle{}}\NormalTok{,}
+        \AttributeTok{textposition =} \StringTok{\textquotesingle{}none\textquotesingle{}}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%}
+
+\FunctionTok{layout}\NormalTok{(}\AttributeTok{title =} \FunctionTok{list}\NormalTok{(}\AttributeTok{text =} \StringTok{\textquotesingle{}Legendary Pokémon by Type\textquotesingle{}}\NormalTok{, }\AttributeTok{font =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{24}\NormalTok{)),}
+       \AttributeTok{xaxis =} \FunctionTok{list}\NormalTok{(}\AttributeTok{title =} \StringTok{\textquotesingle{}Type\textquotesingle{}}\NormalTok{, }\AttributeTok{titlefont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{18}\NormalTok{), }\AttributeTok{tickfont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{14}\NormalTok{)),}
+       \AttributeTok{yaxis =} \FunctionTok{list}\NormalTok{(}\AttributeTok{title =} \StringTok{\textquotesingle{}Count\textquotesingle{}}\NormalTok{, }\AttributeTok{titlefont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{18}\NormalTok{), }\AttributeTok{tickfont =} \FunctionTok{list}\NormalTok{(}\AttributeTok{size =} \DecValTok{14}\NormalTok{)),}
+       \AttributeTok{plot\_bgcolor =} \StringTok{\textquotesingle{}rgba(245, 246, 249, 1)\textquotesingle{}}\NormalTok{,}
+       \AttributeTok{paper\_bgcolor =} \StringTok{\textquotesingle{}rgba(245, 246, 249, 1)\textquotesingle{}}\NormalTok{,}
+       \AttributeTok{margin =} \FunctionTok{list}\NormalTok{(}\AttributeTok{l =} \DecValTok{50}\NormalTok{, }\AttributeTok{r =} \DecValTok{50}\NormalTok{, }\AttributeTok{b =} \DecValTok{100}\NormalTok{, }\AttributeTok{t =} \DecValTok{100}\NormalTok{, }\AttributeTok{pad =} \DecValTok{4}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\paragraph{2.5.3 Legendary Pokemon
+Analysis}\label{legendary-pokemon-analysis}
+
+\subparagraph{2.5.3.1 What Percentage of Pokemon are
+Legendary?}\label{what-percentage-of-pokemon-are-legendary}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{num\_legendary\_pokemon }\OtherTok{\textless{}{-}}\NormalTok{ df }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{filter}\NormalTok{(is\_legendary }\SpecialCharTok{==} \DecValTok{1}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{nrow}\NormalTok{()}
+
+\NormalTok{legendary\_pokemon }\OtherTok{\textless{}{-}}\NormalTok{ df }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{filter}\NormalTok{(is\_legendary }\SpecialCharTok{==} \DecValTok{1}\NormalTok{)}
+
+\NormalTok{pokemon\_type }\OtherTok{\textless{}{-}}\NormalTok{ df }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{group\_by}\NormalTok{(is\_legendary) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{summarize}\NormalTok{(}\AttributeTok{count =} \FunctionTok{n}\NormalTok{())}
+
+\FunctionTok{plot\_ly}\NormalTok{(pokemon\_type, }\AttributeTok{labels =} \SpecialCharTok{\textasciitilde{}}\FunctionTok{factor}\NormalTok{(is\_legendary), }\AttributeTok{values =} \SpecialCharTok{\textasciitilde{}}\NormalTok{count, }\AttributeTok{type =} \StringTok{\textquotesingle{}pie\textquotesingle{}}\NormalTok{,}
+        \AttributeTok{marker =} \FunctionTok{list}\NormalTok{(}\AttributeTok{colors =} \FunctionTok{c}\NormalTok{(}\StringTok{\textquotesingle{}purple\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}yellow\textquotesingle{}}\NormalTok{)),}
+        \AttributeTok{textinfo =} \StringTok{\textquotesingle{}label+value+percent\textquotesingle{}}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%}
+        \FunctionTok{layout}\NormalTok{(}\AttributeTok{title =} \StringTok{\textquotesingle{}\textquotesingle{}}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\subparagraph{2.5.3.2 Height vs Weight}\label{height-vs-weight}
+
+As shown by the graph below, which explores the relationship between
+height (m) and weight (kg); legendary Pokémon compared to their regular
+counterparts are generally much heavier and taller with some exceptions
+including: Onix, Steelix and Wailord.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{top\_5\_heaviest }\OtherTok{\textless{}{-}}\NormalTok{ df }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{top\_n}\NormalTok{(}\DecValTok{5}\NormalTok{, weight\_kg)}
+
+\NormalTok{top\_5\_tallest }\OtherTok{\textless{}{-}}\NormalTok{ df }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{top\_n}\NormalTok{(}\DecValTok{5}\NormalTok{, height\_m)}
+
+\NormalTok{combined\_top\_5 }\OtherTok{\textless{}{-}} \FunctionTok{rbind}\NormalTok{(top\_5\_heaviest, top\_5\_tallest)}
+
+\FunctionTok{ggplot}\NormalTok{(df, }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =}\NormalTok{ height\_m, }\AttributeTok{y =}\NormalTok{ weight\_kg, }\AttributeTok{color =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_point}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{geom\_text\_repel}\NormalTok{(}\AttributeTok{data =}\NormalTok{ combined\_top\_5, }\FunctionTok{aes}\NormalTok{(}\AttributeTok{label =}\NormalTok{ name), }\AttributeTok{size =} \DecValTok{3}\NormalTok{, }\AttributeTok{nudge\_x =} \FloatTok{0.2}\NormalTok{, }\AttributeTok{nudge\_y =} \FloatTok{0.2}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{""}\NormalTok{, }\AttributeTok{x =} \StringTok{"Height (meters)"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Weight (kilograms)"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_color\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning: Removed 20 rows containing missing values or values outside the scale range
+## (`geom_point()`).
+\end{verbatim}
+
+\includegraphics{pokemon_files/figure-latex/unnamed-chunk-11-1.pdf}
+
+\subparagraph{2.5.3.3 Comparing Speed Against Other
+Metrics}\label{comparing-speed-against-other-metrics}
+
+The below graphs illustrate the relationship between Speed and various
+other attributes (Attack, Defense, Height, Weight, Special Attack,
+Special Defense) for Regular and Legendary Pokémon. Each graph consists
+of a scatter plot where the x-axis represents the attribute and the
+y-axis represents Speed. The points are color-coded to distinguish
+between Regular and Legendary Pokémon.
+
+The General Trends include the following:
+
+\begin{itemize}
+\item
+  Legendary Pokémon exhibit a strong positive correlation between speed
+  and both attack and special attack for legendary Pokémon, thus
+  suggesting Legendary Pokémon with higher attack or special attack
+  values tend to have correspondingly higher speed.
+\item
+  A weak negative correlation is evident between speed and both defense
+  and special defense for both regular and legendary Pokémon; indicating
+  that those with higher defence stats generally have lower speed.
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{speed\_vs\_attack }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(df, }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =}\NormalTok{ attack, }\AttributeTok{y =}\NormalTok{ speed, }\AttributeTok{color =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_point}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{"Speed vs. Attack"}\NormalTok{, }\AttributeTok{x =} \StringTok{"Attack"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Speed"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_color\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{))}
+
+\NormalTok{speed\_vs\_defense }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(df, }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =}\NormalTok{ defense, }\AttributeTok{y =}\NormalTok{ speed, }\AttributeTok{color =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_point}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{"Speed vs. Defense"}\NormalTok{, }\AttributeTok{x =} \StringTok{"Defense"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Speed"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_color\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{))}
+
+\NormalTok{speed\_vs\_height }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(df, }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =}\NormalTok{ height\_m, }\AttributeTok{y =}\NormalTok{ speed, }\AttributeTok{color =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_point}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{"Speed vs. Height"}\NormalTok{, }\AttributeTok{x =} \StringTok{"Height"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Speed"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_color\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{))}
+
+\NormalTok{speed\_vs\_weight }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(df, }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =}\NormalTok{ weight\_kg, }\AttributeTok{y =}\NormalTok{ speed, }\AttributeTok{color =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_point}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{"Speed vs. Weight"}\NormalTok{, }\AttributeTok{x =} \StringTok{"Weight"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Speed"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_color\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{))}
+
+\NormalTok{speed\_vs\_spattack }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(df, }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =}\NormalTok{ sp\_attack, }\AttributeTok{y =}\NormalTok{ speed, }\AttributeTok{color =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_point}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{"Speed vs. Special Attack"}\NormalTok{, }\AttributeTok{x =} \StringTok{"Special Attack"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Speed"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_color\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{))}
+
+\NormalTok{speed\_vs\_spdefence }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(df, }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =}\NormalTok{ sp\_attack, }\AttributeTok{y =}\NormalTok{ speed, }\AttributeTok{color =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_point}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{"Speed vs. Special Defence"}\NormalTok{, }\AttributeTok{x =} \StringTok{"Special Defence"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Speed"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_color\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{))}
+
+\FunctionTok{grid.arrange}\NormalTok{(speed\_vs\_attack, speed\_vs\_defense, speed\_vs\_height, speed\_vs\_weight, speed\_vs\_spattack, speed\_vs\_spdefence, }\AttributeTok{ncol =} \DecValTok{2}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning: Removed 20 rows containing missing values or values outside the scale range
+## (`geom_point()`).
+## Removed 20 rows containing missing values or values outside the scale range
+## (`geom_point()`).
+\end{verbatim}
+
+\includegraphics{pokemon_files/figure-latex/unnamed-chunk-12-1.pdf}
+
+\subparagraph{2.5.3.4 Boxplots of all
+Metrics}\label{boxplots-of-all-metrics}
+
+The following box plot diagrams illustrate the distribution of various
+attributes for both regular and legendary Pokémon. Each plot consists of
+two boxes, one for Regular Pokémon (red) and one for Legendary Pokémon
+(blue). The boxes represent the interquartile range (IQR), while the
+lines extending from the boxes indicate the range of the data excluding
+outliers. The dots represent individual data points.
+
+Overall, the plots suggest that Legendary Pokémon tend to have higher
+values for most attributes compared to Regular Pokémon. This is
+particularly evident for Attack, Special Attack, and Speed, where the
+median and upper quartile of Legendary Pokémon are significantly higher.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{attack }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(}\FunctionTok{na.omit}\NormalTok{(df), }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =} \FunctionTok{factor}\NormalTok{(is\_legendary), }\AttributeTok{y =}\NormalTok{ attack, }\AttributeTok{fill =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_boxplot}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{""}\NormalTok{, }\AttributeTok{x =} \StringTok{"Legendary Status"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Attack"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_x\_discrete}\NormalTok{(}\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{scale\_fill\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{theme\_bw}\NormalTok{()}
+
+\NormalTok{defence }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(}\FunctionTok{na.omit}\NormalTok{(df), }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =} \FunctionTok{factor}\NormalTok{(is\_legendary), }\AttributeTok{y =}\NormalTok{ defense, }\AttributeTok{fill =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_boxplot}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{""}\NormalTok{, }\AttributeTok{x =} \StringTok{"Legendary Status"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Defense"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_x\_discrete}\NormalTok{(}\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{scale\_fill\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{theme\_bw}\NormalTok{()}
+
+\NormalTok{sp\_attack }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(}\FunctionTok{na.omit}\NormalTok{(df), }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =} \FunctionTok{factor}\NormalTok{(is\_legendary), }\AttributeTok{y =}\NormalTok{ sp\_attack, }\AttributeTok{fill =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_boxplot}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{""}\NormalTok{, }\AttributeTok{x =} \StringTok{"Legendary Status"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Special Attack"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_x\_discrete}\NormalTok{(}\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{scale\_fill\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{theme\_bw}\NormalTok{()}
+
+\NormalTok{sp\_defence }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(}\FunctionTok{na.omit}\NormalTok{(df), }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =} \FunctionTok{factor}\NormalTok{(is\_legendary), }\AttributeTok{y =}\NormalTok{ sp\_defense, }\AttributeTok{fill =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_boxplot}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{""}\NormalTok{, }\AttributeTok{x =} \StringTok{"Legendary Status"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Special Defence"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_x\_discrete}\NormalTok{(}\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{scale\_fill\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{theme\_bw}\NormalTok{()}
+
+\NormalTok{speeed }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(}\FunctionTok{na.omit}\NormalTok{(df), }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =} \FunctionTok{factor}\NormalTok{(is\_legendary), }\AttributeTok{y =}\NormalTok{ speed, }\AttributeTok{fill =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_boxplot}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{""}\NormalTok{, }\AttributeTok{x =} \StringTok{"Legendary Status"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Speed"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_x\_discrete}\NormalTok{(}\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{scale\_fill\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{theme\_bw}\NormalTok{()}
+
+\NormalTok{hpp }\OtherTok{\textless{}{-}} \FunctionTok{ggplot}\NormalTok{(}\FunctionTok{na.omit}\NormalTok{(df), }\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =} \FunctionTok{factor}\NormalTok{(is\_legendary), }\AttributeTok{y =}\NormalTok{ hp, }\AttributeTok{fill =} \FunctionTok{factor}\NormalTok{(is\_legendary))) }\SpecialCharTok{+}
+  \FunctionTok{geom\_boxplot}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{labs}\NormalTok{(}\AttributeTok{title =} \StringTok{""}\NormalTok{, }\AttributeTok{x =} \StringTok{"Legendary Status"}\NormalTok{, }\AttributeTok{y =} \StringTok{"HP"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{scale\_x\_discrete}\NormalTok{(}\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{scale\_fill\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"1"} \OtherTok{=} \StringTok{"blue"}\NormalTok{, }\StringTok{"0"} \OtherTok{=} \StringTok{"red"}\NormalTok{), }\AttributeTok{labels =} \FunctionTok{c}\NormalTok{(}\StringTok{"Regular"}\NormalTok{, }\StringTok{"Legendary"}\NormalTok{)) }\SpecialCharTok{+}
+  \FunctionTok{theme\_bw}\NormalTok{()}
+
+\FunctionTok{grid.arrange}\NormalTok{(attack, defence, sp\_attack, sp\_defence, speeed, hpp, }\AttributeTok{ncol =} \DecValTok{2}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{pokemon_files/figure-latex/unnamed-chunk-13-1.pdf}
+\#\#\# 2.6 Utilizing Machine Learning to Predict Which Pokémon are
+Legendary or Not? \#\#\#\# 2.6.1 Splitting the Data into Training and
+Testing
+
+Training Data: 534 Pokémon
+
+Testing Data: 267 Pokémon
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{training\_data }\OtherTok{\textless{}{-}} \FunctionTok{sample}\NormalTok{(}\DecValTok{1}\SpecialCharTok{:}\FunctionTok{nrow}\NormalTok{(df), }\DecValTok{2} \SpecialCharTok{*} \FunctionTok{nrow}\NormalTok{(df) }\SpecialCharTok{/} \DecValTok{3}\NormalTok{)}
+\NormalTok{testing\_data }\OtherTok{\textless{}{-}} \FunctionTok{setdiff}\NormalTok{(}\DecValTok{1}\SpecialCharTok{:}\FunctionTok{nrow}\NormalTok{(df), training\_data)}
+
+\NormalTok{legendary\_test }\OtherTok{\textless{}{-}}\NormalTok{ df}\SpecialCharTok{$}\NormalTok{is\_legendary[testing\_data]}
+\end{Highlighting}
+\end{Shaded}
+
+\paragraph{2.6.2 Decision Tree Algorithm}\label{decision-tree-algorithm}
+
+``Decision tree learning is a supervised learning approach used in
+statistics, data mining and machine learning. In this formalism, a
+classification or regression decision tree is used as a predictive model
+to draw conclusions about a set of observations. Decision trees are
+among the most popular machine learning algorithms given their
+intelligibility and simplicity''
+(\url{https://en.wikipedia.org/wiki/Decision_tree_learning}).
+
+The decision tree for predicting whether Pokémon are legendary begins at
+the root with the special attack attribute. It determines whether the
+Pokémon's special attack stat is greater or less than 71.5. If it's less
+than 71.5, the Pokémon is automatically deemed to not be legendary. If
+it is, the tree branches off into different attributes including defense
+and speed. Special attack is the most important metric, as it forms the
+root of the tree, it's the first gate which determines whether a Pokémon
+should be evaluated further. Defense and speed are also important
+metrics for how this model determines if a Pokémon is legendary.
+
+Ultimately, this systematic breakdown navigates through various metrics,
+with each one acting as a gate leading to the Pokémon's classification.
+Each decision point in the tree filters the Pokémon through key
+criteria, with only those that meet all the thresholds being deemed
+legendary.
+
+Accuracy of Decision Tree Model: 0.895
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{set.seed}\NormalTok{(}\DecValTok{200}\NormalTok{)}
+
+\NormalTok{df}\SpecialCharTok{$}\NormalTok{is\_legendary }\OtherTok{\textless{}{-}} \FunctionTok{as.factor}\NormalTok{(df}\SpecialCharTok{$}\NormalTok{is\_legendary)}
+
+\NormalTok{pokemon\_tree }\OtherTok{\textless{}{-}} \FunctionTok{tree}\NormalTok{(is\_legendary }\SpecialCharTok{\textasciitilde{}}\NormalTok{ ., }\AttributeTok{data =}\NormalTok{ df[training\_data, ], }\AttributeTok{na.action =}\NormalTok{ na.omit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in tree(is_legendary ~ ., data = df[training_data, ], na.action =
+## na.omit): NAs introduced by coercion
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{colors }\OtherTok{\textless{}{-}} \FunctionTok{brewer.pal}\NormalTok{(}\DecValTok{3}\NormalTok{, }\StringTok{"Set3"}\NormalTok{)}
+\FunctionTok{plot}\NormalTok{(pokemon\_tree, }\AttributeTok{col =}\NormalTok{ colors, }\AttributeTok{lwd =} \DecValTok{2}\NormalTok{, }\AttributeTok{main =} \StringTok{"Decision Tree for Legendary Pokémon Prediction"}\NormalTok{)}
+\FunctionTok{text}\NormalTok{(pokemon\_tree, }\AttributeTok{pretty =} \DecValTok{0}\NormalTok{, }\AttributeTok{col =} \StringTok{"blue"}\NormalTok{, }\AttributeTok{cex =} \FloatTok{0.45}\NormalTok{)}
+\FunctionTok{grid}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{pokemon_files/figure-latex/unnamed-chunk-15-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{predictions }\OtherTok{\textless{}{-}} \FunctionTok{predict}\NormalTok{(pokemon\_tree, }\AttributeTok{newdata =}\NormalTok{ df[testing\_data, ], }\AttributeTok{type =} \StringTok{"class"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in pred1.tree(object, tree.matrix(newdata)): NAs introduced by coercion
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{confusion\_matrix }\OtherTok{\textless{}{-}} \FunctionTok{table}\NormalTok{(predictions, legendary\_test)}
+
+\NormalTok{accuracy }\OtherTok{\textless{}{-}} \FunctionTok{sum}\NormalTok{(}\FunctionTok{diag}\NormalTok{(confusion\_matrix)) }\SpecialCharTok{/} \FunctionTok{sum}\NormalTok{(confusion\_matrix)}
+
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Accuracy:"}\NormalTok{, accuracy, }\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Accuracy: 0.9101124
+\end{verbatim}
+
+\paragraph{2.6.3 Random Forest Algorithm}\label{random-forest-algorithm}
+
+``Random forests or random decision forests is an ensemble learning
+method for classification, regression and other tasks that works by
+creating a multitude of decision trees during training. For
+classification tasks, the output of the random forest is the class
+selected by most trees. For regression tasks, the output is the average
+of the predictions of the trees
+(\url{https://en.wikipedia.org/wiki/Random_forest}).''
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{df}\SpecialCharTok{$}\NormalTok{is\_legendary }\OtherTok{\textless{}{-}} \FunctionTok{as.factor}\NormalTok{(df}\SpecialCharTok{$}\NormalTok{is\_legendary)}
+
+\NormalTok{pokemon\_rf }\OtherTok{\textless{}{-}} \FunctionTok{randomForest}\NormalTok{(is\_legendary }\SpecialCharTok{\textasciitilde{}}\NormalTok{ ., }\AttributeTok{data =}\NormalTok{ df[training\_data, ], }\AttributeTok{importance =} \ConstantTok{TRUE}\NormalTok{, }\AttributeTok{na.action =}\NormalTok{ na.omit, }\AttributeTok{type =} \StringTok{"classification"}\NormalTok{)}
+
+\FunctionTok{print}\NormalTok{(pokemon\_rf)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+## Call:
+##  randomForest(formula = is_legendary ~ ., data = df[training_data,      ], importance = TRUE, type = "classification", na.action = na.omit) 
+##                Type of random forest: classification
+##                      Number of trees: 500
+## No. of variables tried at each split: 3
+## 
+##         OOB estimate of  error rate: 5.95%
+## Confusion matrix:
+##     0  1 class.error
+## 0 474  2 0.004201681
+## 1  29 16 0.644444444
+\end{verbatim}
+
+The confusion matrix indicates that:
+
+\begin{itemize}
+\item
+  477 instances were correctly classified as class 0.
+\item
+  4 instances were incorrectly classified as class 0 (false negatives).
+\item
+  29 instances were incorrectly classified as class 1 (false positives).
+\item
+  12 instances were correctly classified as class 1.
+\end{itemize}
+
+The class error rates for each class are also provided:
+
+\begin{itemize}
+\item
+  Class 0: 0.00845666 (approximately 0.83\%)
+\item
+  Class 1: 0.65909091 (approximately 68.29\%)
+\end{itemize}
+
+Accuracy = (True Positives + True Negatives) / (Total Instances)
+
+Accuracy = (12 + 477) / 522 ≈ 0.9377
+
+Accuracy of Random Forest Model: 0.937
+
+\subparagraph{2.6.3.1 Most Important
+Metrics}\label{most-important-metrics}
+
+\begin{itemize}
+\item
+  Mean Decrease Accuracy: a metric that measures how much a model's
+  accuracy decreases when a variable is removed.
+\item
+  Mean Decrease Gini: measures how important a variable in a random
+  forest model, by quantifying how much it contributes to the
+  homogeneity of the model's nodes.
+\end{itemize}
+
+As shown by the output below, the most crucial three metrics used by the
+Random Forest model to successfully predict whether a Pokémon are
+special attack, weight and speed.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{varImpPlot}\NormalTok{(pokemon\_rf)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{pokemon_files/figure-latex/unnamed-chunk-18-1.pdf} \#
+3. Conclusion
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{include\_graphics}\NormalTok{(}\StringTok{"legendary{-}pokemon{-}55326671.jpg"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{legendary-pokemon-55326671.jpg}
+
+In conclusion, as shown by the ROC Curve graph below, the Random Forest
+model (blue) is clearly more accurate than the Decision Tree model
+(red). The closer the curve is to the top left corner, the more accurate
+and efficient the model is. The Random Forest model achieved higher
+sensitivity and specificty compared to the other one, which thus
+indicates that it's more efficient at correctly classifying both
+legendary and regular Pokémon.
+
+The higher accuracy, is due to the nature of the Random Forest
+algorithm, which combined multiple trees which produced more reliable
+predictions; the Decision Tree algorithm is much more simplistic and
+lacks the robustness as Random Forest. Through comparing two different
+models, it highlighted the importance of model selection and the impact
+of algorithm complexity on predictive performance.
+
+The most crucial metrics across both models in determining Legendary
+Pokémon are the following:
+
+\begin{itemize}
+\item
+  Special Attack
+\item
+  Weight (KG)
+\item
+  Speed
+\end{itemize}
+
+Overall this simplistic project explored and introduced the fundamental
+concepts of data analysis, visualization and machine learning with R. It
+acted as a simplistic gateway offering practical, hands-on experience in
+applying these techniques. The skills and insights gained here lay a
+solid foundation for more advanced explorations in the exciting fields
+of data analysis and data science.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Predict probabilities for both models}
+\NormalTok{rf\_prob }\OtherTok{\textless{}{-}} \FunctionTok{predict}\NormalTok{(pokemon\_rf, df[testing\_data, ], }\AttributeTok{type =} \StringTok{"prob"}\NormalTok{)[, }\DecValTok{2}\NormalTok{]}
+\NormalTok{tree\_prob }\OtherTok{\textless{}{-}} \FunctionTok{predict}\NormalTok{(pokemon\_tree, df[testing\_data, ], }\AttributeTok{type =} \StringTok{"vector"}\NormalTok{)[, }\DecValTok{2}\NormalTok{]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in pred1.tree(object, tree.matrix(newdata)): NAs introduced by coercion
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Generate ROC curves}
+\NormalTok{rf\_roc }\OtherTok{\textless{}{-}} \FunctionTok{roc}\NormalTok{(df}\SpecialCharTok{$}\NormalTok{is\_legendary[testing\_data], rf\_prob)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Setting levels: control = 0, case = 1
+\end{verbatim}
+
+\begin{verbatim}
+## Setting direction: controls < cases
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree\_roc }\OtherTok{\textless{}{-}} \FunctionTok{roc}\NormalTok{(df}\SpecialCharTok{$}\NormalTok{is\_legendary[testing\_data], tree\_prob)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Setting levels: control = 0, case = 1
+## Setting direction: controls < cases
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Plot ROC curves}
+\FunctionTok{plot}\NormalTok{(rf\_roc, }\AttributeTok{col =} \StringTok{"blue"}\NormalTok{, }\AttributeTok{main =} \StringTok{"ROC Curves for Random Forest and Decision Tree"}\NormalTok{)}
+\FunctionTok{lines}\NormalTok{(tree\_roc, }\AttributeTok{col =} \StringTok{"red"}\NormalTok{)}
+\FunctionTok{legend}\NormalTok{(}\StringTok{"bottomright"}\NormalTok{, }\AttributeTok{legend =} \FunctionTok{c}\NormalTok{(}\StringTok{"Random Forest"}\NormalTok{, }\StringTok{"Decision Tree"}\NormalTok{), }\AttributeTok{col =} \FunctionTok{c}\NormalTok{(}\StringTok{"blue"}\NormalTok{, }\StringTok{"red"}\NormalTok{), }\AttributeTok{lwd =} \DecValTok{2}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{pokemon_files/figure-latex/unnamed-chunk-20-1.pdf}
+
+\end{document}
