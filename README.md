@@ -20,7 +20,7 @@ Hello, I'm William! I've recently completed my cyber security & technology maste
 
 
 **Web Application Development & Design:**
-* Personal Photography Portfolio Website (React)
+* Personal Photography Portfolio Website (React.JS)
 * Privacy-Based Social Media Platform (Ruby on Rails)
 
 ## Academic Qualifications:
