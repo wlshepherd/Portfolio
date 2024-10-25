@@ -8,7 +8,7 @@ Hello, I'm William! I've recently completed my cyber security & technology maste
 **Cyber Security:**
 
 * [**TP-Link LB130 IoT Environment Penetration Testing (MSc Dissertation)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
-   * Tools Used: Metasploit, Tenables Nessus, Nmap, hping3, Low Orbit Ion Cannon, Aireplay-ng, Wireshark
+   * Tools Used: Metasploit, Tenables Nessus, Nmap, hping3, Low Orbit Ion Cannon, Aireplay-ng, Wireshark, VirtualBox and Kali Linux.
 * Beginner's Level Web-App Security Testing Challenge (PHP)
 * Detecting Phishing URLs using Machine Learning (Python)
 * [**Simple Pseudo Spyware (Python)**](https://github.com/wlshepherd/My_Portolio/tree/main/Pseudo%20Spyware%20Side%20Project)
