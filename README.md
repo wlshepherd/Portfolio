@@ -21,7 +21,7 @@ Hello, I'm William! I've recently completed my cyber security & technology maste
 
 **Web Application Development & Design:**
 * Responsive Photography Portfolio Website (React)
-* Cryptocurrency Tracker (React & D3.js)
+* Cryptocurrency Tracking Website (React)
 * Privacy-Based Social Media Platform (Ruby on Rails)
 
 ## Academic Qualifications:
