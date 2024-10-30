@@ -1,4 +1,4 @@
-# William's Computing Portfolio
+# William's Computer Science Portfolio
 
 ## Description:
 Hello, my name is William. I have recently completed my Master's degree in Cyber Security and Technology from Cardiff University and am currently seeking my first position in the technology industry. I possess a strong interest in various fields, including cyber security, data analysis, front-end development, and digital forensics. This portfolio includes my university projects as well as ongoing side projects, which collectively showcase my skills and experience.
