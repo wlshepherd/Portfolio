@@ -20,7 +20,7 @@ Hello, my name is William. I have recently completed my Master's degree in Cyber
 
 
 **Web Application Development:**
-* Responsive Photography Portfolio (React)
+* [**Responsive Photography Portfolio (React)**](https://github.com/wlshepherd/react-first-project)
 * _Crypto Shark_ - Cryptocurrency Monitoring and Visualization App (React)
 * Privacy-Based Social Media Platform (Ruby on Rails)
 
@@ -30,5 +30,3 @@ Hello, my name is William. I have recently completed my Master's degree in Cyber
 
 ## Certificates:
 N/A
-
-
