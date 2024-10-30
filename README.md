@@ -9,7 +9,6 @@ Hello, my name is William. I have recently completed my Master's degree in Cyber
 
 * [**TP-Link LB130 IoT Environment Penetration Testing (MSc Dissertation)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 * Utilising Machine Learning Algorithms to Detect Phishing Emails (Python)
-* [**Simple Pseudo Spyware (Python)**](https://github.com/wlshepherd/My_Portolio/tree/main/Pseudo%20Spyware%20Side%20Project)
 
 **Data Analysis & Data Science:**
 
