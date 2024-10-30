@@ -19,7 +19,7 @@ Hello, I'm William! I've recently completed my cyber security & technology maste
 * West Mercia Crime Data Set Analysis (SQL)
 
 
-**Web Application Development & Design:**
+**Web Application Development:**
 * Responsive Photography Portfolio Website (React)
 * Cryptocurrency Tracking Website (React)
 * Privacy-Based Social Media Platform (Ruby on Rails)
