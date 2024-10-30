@@ -25,6 +25,7 @@ Hello, my name is William. I have recently completed my Master's degree in Cyber
 ## Academic Qualifications:
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
 * BSc Computer Science - Cardiff University (2020 - 2023)
+* A-Level History & English Literature - The Chase School (2018 - 2020)
 
 ## Certificates:
 N/A
