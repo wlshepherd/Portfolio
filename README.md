@@ -9,7 +9,7 @@ Hello, my name is William. I have recently completed my Master's degree in Cyber
 
 * [**TP-Link LB130 IoT Environment Penetration Testing (MSc Dissertation)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 * Utilising Machine Learning Algorithms to Detect Phishing Emails (Python)
-* Penetration Test Report of Metasploitable 1.0 (Penetration Testing Execution Standard)
+* Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
 
 **Data Analysis & Data Science:**
 * [**NBA 2023/2024 Season Analysis & MVP Prediction (Python)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
