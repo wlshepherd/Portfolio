@@ -20,7 +20,7 @@ Hello, my name is William. I have recently completed my Master's degree in Cyber
 * _Crypto Shark_ - Cryptocurrency Tracker App (TypeScript & React)
 
 **Miscellaneous:**
-* _Dark Matter_ - (Unity)
+* _Dark Matter_ - (C# - Unity)
 
 ## Academic Qualifications:
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
