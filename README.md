@@ -20,6 +20,9 @@ Hello, my name is William. I have recently completed my Master's degree in Cyber
 * [**Responsive Photography Portfolio (React)**](https://wlshepherd.github.io/react-first-project/#/)
 * _Crypto Shark_ - Cryptocurrency Tracker App (TypeScript & React)
 
+**Computer Graphics:**
+
+
 ## Academic Qualifications:
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
 * BSc Computer Science - Cardiff University (2020 - 2023)
