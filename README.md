@@ -21,6 +21,7 @@ Hello, my name is William. I have recently completed my Master's degree in Cyber
 * _Crypto Shark_ - Cryptocurrency Tracker App (TypeScript & React)
 
 **Computer Graphics:**
+* 3D Bouncing Ball (Java)
 
 
 ## Academic Qualifications:
