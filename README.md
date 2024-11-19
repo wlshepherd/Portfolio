@@ -6,11 +6,11 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 
 **Cyber Security:**
 * Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
-* Utilising Machine Learning to Detect Phishing Emails (Python)
+* Phishing Email Detection Using Machine Learning Techniques
 
 **Data Analysis & Data Science:**
+* [**Exploratory Analysis of Pokémon Data: Predicting Legendary Status (R)**](https://github.com/wlshepherd/My_Portolio/blob/main/pokemon.pdf)
 * [**NBA 2023/2024 Season Analysis & MVP Prediction (Python)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
-* [**Pokémon Data Set Analysis & Legendary Prediction (R)**](https://github.com/wlshepherd/My_Portolio/blob/main/pokemon.pdf)
 
 **Web Application Development:**
 * _Crypto Shark_ - Cryptocurrency Tracker App (TypeScript & React)
