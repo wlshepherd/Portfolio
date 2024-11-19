@@ -4,6 +4,10 @@
 Hello! My name is William, and I am excited to share my portfolio with you. I have recently completed my Master's degree in Cyber Security and Technology from Cardiff University, and I am actively seeking my first position in the technology industry. My interests span a variety of fields, including cyber security, machine learning, computer graphics, and web application development. This portfolio showcases a selection of my university projects and ongoing side projects, highlighting my skills and experience.
 ## Projects:
 
+**Computer Graphics:**
+* 3D Bouncing Ball Simulation (Java)
+* Dynamic Shape Creation and Manipulation (Java)
+
 **Cyber Security:**
 * Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
 * Phishing Email Detection Using Machine Learning Techniques (Python)
@@ -15,10 +19,6 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 **Web Application Development:**
 * Crypto Shark: Real-Time Cryptocurrency Tracking Application (TypeScript & React)
 * [**Responsive Photography Portfolio (React)**](https://wlshepherd.github.io/react-first-project/#/)
-
-**Computer Graphics:**
-* 3D Bouncing Ball Simulation (Java)
-* Dynamic Shape Creation and Manipulation (Java)
 
 ## Academic Qualifications:
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
