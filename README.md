@@ -18,6 +18,7 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 
 **Computer Graphics:**
 * 3D Bouncing Ball Simulation (Java)
+* Dynamic Shape Creation and Manipulation (Java)
 
 ## Academic Qualifications:
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
