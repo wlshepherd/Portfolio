@@ -17,7 +17,7 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 * [**Responsive Photography Portfolio (React)**](https://wlshepherd.github.io/react-first-project/#/)
 
 **Computer Graphics:**
-* 3D Bouncing Ball (Java)
+* 3D Bouncing Ball Simulation
 
 ## Academic Qualifications:
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
