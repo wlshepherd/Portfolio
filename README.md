@@ -6,7 +6,7 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 
 **Cyber Security:**
 * Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
-* Phishing Email Detection Using Machine Learning Techniques
+* Phishing Email Detection Using Machine Learning Techniques (Python)
 
 **Data Analysis & Data Science:**
 * [**Exploratory Analysis of Pokémon Data: Predicting Legendary Status (R)**](https://github.com/wlshepherd/My_Portolio/blob/main/pokemon.pdf)
