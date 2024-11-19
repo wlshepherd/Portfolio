@@ -15,8 +15,8 @@ Hello, my name is William. I have recently completed my Master's degree in Cyber
 * [**Pokémon Data Set Analysis & Legendary Prediction (R)**](https://github.com/wlshepherd/My_Portolio/blob/main/pokemon.pdf)
 
 **Web Application Development:**
-* [**Responsive Photography Portfolio (React)**](https://wlshepherd.github.io/react-first-project/#/)
 * _Crypto Shark_ - Cryptocurrency Tracker App (TypeScript & React)
+* [**Responsive Photography Portfolio (React)**](https://wlshepherd.github.io/react-first-project/#/)
 
 **Computer Graphics:**
 * 3D Bouncing Ball (Java)
