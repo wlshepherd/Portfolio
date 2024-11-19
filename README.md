@@ -13,7 +13,7 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 * [**NBA 2023/2024 Season Analysis & MVP Prediction (Python)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 
 **Web Application Development:**
-* _Crypto Shark_ - Cryptocurrency Tracker App (TypeScript & React)
+* Crypto Shark: Real-Time Cryptocurrency Tracking Application (TypeScript & React)
 * [**Responsive Photography Portfolio (React)**](https://wlshepherd.github.io/react-first-project/#/)
 
 **Computer Graphics:**
