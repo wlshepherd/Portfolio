@@ -16,11 +16,11 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 * [**Exploratory Analysis of Pokémon Data: Predicting Legendary Status (R)**](https://github.com/wlshepherd/My_Portolio/blob/main/pokemon.pdf)
 * [**NBA 2023/2024 Season Analysis & MVP Prediction (Python)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 
-**Web Application Development:**
+**Web Application Development: :computer:**
 * Crypto Shark: Real-Time Cryptocurrency Tracking Application (TypeScript & React)
 * [**Responsive Photography Portfolio (React)**](https://wlshepherd.github.io/react-first-project/#/)
 
-## Academic Qualifications :computer::
+## Academic Qualifications:
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
 * BSc Computer Science - Cardiff University (2020 - 2023)
 
