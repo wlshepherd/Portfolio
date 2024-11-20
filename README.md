@@ -9,6 +9,7 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 * Dynamic Shape Creation and Manipulation (Java)
 
 **Cyber Security: :lock:**
+* IoT Device Penetration Testing Report (Penetration Testing Execution Standard)
 * Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
 * Phishing Email Detection Using Machine Learning Techniques (Python)
 
