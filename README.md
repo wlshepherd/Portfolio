@@ -4,7 +4,7 @@
 Hello! My name is William, and I am excited to share my portfolio with you. I have recently completed my Master's degree in Cyber Security and Technology from Cardiff University, and I am actively seeking my first position in the technology industry. My interests span a variety of fields, including cyber security, machine learning, computer graphics, and web application development. This portfolio showcases a selection of my university projects and ongoing side projects, highlighting my skills and experience.
 ## Projects:
 
-**Computer Graphics:**
+**Computer Graphics: :space_invader:**
 * 3D Bouncing Ball Simulation (Java)
 * Dynamic Shape Creation and Manipulation (Java)
 
