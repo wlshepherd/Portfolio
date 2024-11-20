@@ -24,5 +24,5 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
 * BSc Computer Science - Cardiff University (2020 - 2023)
 
-## Certificates:
+## Certificates: 
 N/A
