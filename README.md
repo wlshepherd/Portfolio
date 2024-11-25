@@ -11,7 +11,7 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 **Cyber Security :lock::**
 * IoT Device Penetration Testing Report (Penetration Testing Execution Standard)
 * Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
-* [**Phishing Email Detection Using Machine Learning Techniques (Python)**](https://github.com/wlshepherd/My_Portfolio/blob/main/PhishingDetection.html)
+* [**Phishing Email Detection Using Machine Learning (Python)**](https://github.com/wlshepherd/My_Portfolio/blob/main/PhishingDetection.html)
 
 **Data Analysis & Data Science :chart_with_upwards_trend::**
 * [**Exploratory Analysis of Pokémon Data: Predicting Legendary Status (R)**](https://github.com/wlshepherd/My_Portolio/blob/main/pokemon.pdf)
