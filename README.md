@@ -17,7 +17,7 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 * [**Exploratory Analysis of Pokémon Data: Predicting Legendary Status (R)**](https://github.com/wlshepherd/My_Portolio/blob/main/pokemon.pdf)
 * [**NBA 2023/2024 Season Analysis & MVP Prediction (Python)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 
-**Digital Forensics: :chart_with_upwards_trend:**
+**Digital Forensics: :cop:**
 
 
 **Web Application Development: :computer:**
