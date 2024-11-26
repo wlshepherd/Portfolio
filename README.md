@@ -14,7 +14,6 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 * [**Detecting Phishing Emails with Machine Learning (Python)**](https://github.com/wlshepherd/My_Portfolio/blob/main/PhishingDetection.ipynb)
 
 **Data Analysis & Data Science :chart_with_upwards_trend::**
-* [**Exploratory Analysis of Pokémon Data: Predicting Legendary Status (R)**](https://github.com/wlshepherd/My_Portolio/blob/main/pokemon.pdf)
 * [**NBA 2023/2024 Regular Season Analysis (Python)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 
 **Web Application Development :computer::**
