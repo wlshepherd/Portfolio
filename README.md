@@ -19,9 +19,6 @@ Hello! My name is William, and I am excited to share my portfolio with you. I ha
 **Web Application Development :computer::**
 * Crypto Shark: Real-Time Cryptocurrency Tracking Interface (TypeScript & React)
 * [**Responsive Photography Portfolio (React)**](https://github.com/wlshepherd/photography_portfolio)
-
-**Miscallenous:**
-* Command-Line NFL Simulation Game (Python)
   
 ## Academic Qualifications :school::
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
