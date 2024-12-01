@@ -1,12 +1,14 @@
 # Computer Science Graduate Portfolio :page_facing_up:
 
 ## Description:
-Hello! My name is William, and I am excited to share my portfolio with you. I have recently completed my Master's degree in Cyber Security and Technology from Cardiff University, and I am actively seeking my first position in the technology industry. My interests span a variety of fields, including cyber security, machine learning, computer graphics, and web application development. This portfolio showcases a selection of my university projects and ongoing side projects, highlighting my skills and experience.
+Hello! I'm William, a recent graduate with a Master's degree in Cyber Security and Technology from Cardiff University. I have a passion for technology, with interests spanning cyber security, machine learning, computer graphics, and web application development. This portfolio showcases a selection of my university projects and ongoing side projects, highlighting my skills and experience.
+
 ## Projects: :file_folder:
 
 **Computer Graphics :space_invader::**
 * 3D Bouncing Ball Simulation (Java)
 * Dynamic Shape Creation and Manipulation (Java)
+* Top-Down Sci-Fi Horror Shooter Game (C#)
 
 **Cyber Security :lock::**
 * IoT Device Penetration Testing Report (Penetration Testing Execution Standard)
