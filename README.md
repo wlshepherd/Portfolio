@@ -8,7 +8,6 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 **Computer Graphics :space_invader::**
 * 3D Bouncing Ball Simulation (Java)
 * Dynamic Shape Creation and Manipulation (Java)
-* Top-Down Sci-Fi Horror Shooter Game (C#)
 
 **Cyber Security :lock::**
 * IoT Device Penetration Testing Report (Penetration Testing Execution Standard)
