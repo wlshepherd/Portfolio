@@ -5,10 +5,6 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 
 ## Projects: :file_folder:
 
-**Computer Graphics :space_invader::**
-* 3D Bouncing Ball Simulation (Java)
-* Dynamic Shape Creation and Manipulation (Java)
-
 **Cyber Security :lock::**
 * IoT Device Penetration Testing Report (Penetration Testing Execution Standard)
 * Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
