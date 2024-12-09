@@ -19,7 +19,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 * [**NBA 2023/2024 Regular Season Analysis (Python)**](https://github.com/wlshepherd/My_Portolio/blob/main/NBA_Data_Analysis_Project.ipynb)
 
 **Web Application Development :computer::**
-* Crypto Shark: Real-Time Cryptocurrency Tracking App (TypeScript & React)
+* Crypto Shark: Real-Time Cryptocurrency Tracking App (TypeScript, React, HTML)
 * [**Responsive Photography Portfolio (React)**](https://wlshepherd.github.io/react-first-project/)
   
 ## Academic Qualifications :school::
