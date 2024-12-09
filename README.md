@@ -20,7 +20,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 
 **Web Application Development :computer::**
 * Crypto Shark: Real-Time Cryptocurrency Tracking App (TypeScript, React, HTML)
-* [**Responsive Photography Portfolio (React)**](https://wlshepherd.github.io/react-first-project/)
+* [**Responsive Photography Portfolio (JavaScript, React, HTML, CSS)**](https://wlshepherd.github.io/react-first-project/)
   
 ## Academic Qualifications :school::
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
