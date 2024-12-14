@@ -11,7 +11,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 
 **Web Application Design & Development :computer::**
 * Crypto Shark: Real-Time Cryptocurrency Tracking & Wallet App (TypeScript, React, HTML, SCSS)
-* Full-Stack Social Media Platform (Java, Spring Boot, TypeScript, React, HTML, Tailwind CSS)
+* Full-Stack Social Media Platform (Java, Spring Boot, TypeScript, React, HTML, Tailwind CSS, MySQL)
 * [**Responsive Photography Portfolio (JavaScript, React, HTML, CSS)**](https://wlshepherd.github.io/react-first-project/)
 
 **Miscellaneous :warning::**
