@@ -17,9 +17,6 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 
 **Miscellaneous :warning::**
 * Fantasy NFL Game (Java)
-* Image Recognition Application (Python)
-
-
   
 ## Academic Qualifications :school::
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
