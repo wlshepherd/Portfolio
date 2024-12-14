@@ -16,7 +16,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 * [**Responsive Photography Portfolio (JavaScript, React, HTML, CSS)**](https://wlshepherd.github.io/react-first-project/)
 
 **Miscellaneous :warning::**
-* NFL - Regular Season & Play-Off Simulation (Java)
+* Fantasy NFL Game (Java)
 
 
   
