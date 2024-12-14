@@ -6,9 +6,8 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 ## Projects: :file_folder:
 
 **Cyber Security :lock::**
-* IoT Device Penetration Testing Report (Penetration Testing Execution Standard)
-* Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
 * [**Detecting Phishing Emails with Machine Learning (Python)**](https://github.com/wlshepherd/My_Portfolio/blob/main/PhishingDetection.ipynb)
+* Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
 
 **Web Application Design & Development :computer::**
 * Crypto Shark: Real-Time Cryptocurrency Tracking & Wallet App (TypeScript, React, HTML, SCSS)
