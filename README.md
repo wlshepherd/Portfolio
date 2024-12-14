@@ -16,7 +16,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 
 **Miscellaneous :warning::**
 * Command-Line Fantasy American Football Simulator (Java)
-* Visualising NBA Regular Season Statistics (Python)
+* Visualising NBA Regular Season Statistics - 2023 / 2024 (Python)
 
 ## Academic Qualifications :school::
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
