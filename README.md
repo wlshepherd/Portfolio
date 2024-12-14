@@ -15,7 +15,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 * Full-Stack Social Media Platform (Java, Spring Boot, TypeScript, React, HTML, Tailwind CSS)
 * [**Responsive Photography Portfolio (JavaScript, React, HTML, CSS)**](https://wlshepherd.github.io/react-first-project/)
 
-**Miscellaneous**
+**Miscellaneous :warning::**
 
   
 ## Academic Qualifications :school::
