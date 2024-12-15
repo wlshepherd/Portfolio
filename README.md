@@ -10,9 +10,9 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 * Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
 
 **Web Application Design & Development :computer::**
+* [**Responsive Photography Portfolio (JavaScript, React, HTML, CSS)**](https://wlshepherd.github.io/react-first-project/)
 * Crypto Shark: Real-Time Cryptocurrency Tracking & Wallet App (TypeScript, React, HTML, SCSS)
 * Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML, Tailwind CSS, MySQL)
-* [**Responsive Photography Portfolio (JavaScript, React, HTML, CSS)**](https://wlshepherd.github.io/react-first-project/)
 
 **Miscellaneous :warning::**
 * Command-Line Fantasy American Football Simulator (Java)
