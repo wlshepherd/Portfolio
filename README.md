@@ -15,7 +15,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 * Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML, Tailwind CSS, MySQL)
 
 **Miscellaneous :warning::**
-* Command-Line American Football Season Simulator (Java)
+* Command-Line National Football League Season Simulator (Java)
 
 ## Academic Qualifications :school::
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
