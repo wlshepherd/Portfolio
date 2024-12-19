@@ -12,7 +12,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 **Web Application Design & Development :computer::**
 * [**Responsive Photography Portfolio (JavaScript, React, HTML, CSS)**](https://wlshepherd.github.io/react-first-project/)
 * Crypto Shark: Real-Time Cryptocurrency Tracking & Wallet App (TypeScript, React, HTML, SCSS)
-* Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML, Tailwind CSS, MySQL)
+* Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML5, Tailwind CSS, MySQL)
 
 **Miscellaneous :warning::**
 * [**National Football League Season Simulator (Java)**](https://github.com/wlshepherd/NFL-J-Project/tree/master/src)
