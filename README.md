@@ -18,6 +18,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
          
 * Crypto Shark: Real-Time Cryptocurrency Tracking & Wallet App (TypeScript, React, HTML, SCSS)
 * Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML5, Tailwind CSS, MySQL)
+    * 
 
 **Miscellaneous :warning::**
 * [**National Football League Season Simulator (Java)**](https://github.com/wlshepherd/NFL-J-Project/tree/master/src)
