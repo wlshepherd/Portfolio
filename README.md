@@ -16,7 +16,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 
 **Miscellaneous :warning::**
 * [**National Football League Season Simulator (Java)**](https://github.com/wlshepherd/NFL-J-Project/tree/master/src)
-* * This project was my 
+ * This project was my 
 
 ## Academic Qualifications :school::
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
