@@ -9,7 +9,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 * [**Detecting Phishing Emails with Machine Learning (Python)**](https://github.com/wlshepherd/My_Portfolio/blob/main/PhishingDetection.ipynb)
 * Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
 
-**__Web Application Design & Development__ :computer::**
+**___Web Application Design & Development___ :computer::**
 * [**Responsive Photography Portfolio (JavaScript, React, HTML, CSS)**](https://wlshepherd.github.io/react-first-project/)
      * This simple front-end project was my first using the React framework, and it involved designing and developing a responsive photography portfolio. The process began with sketching out initial ideas on paper, allowing me to brainstorm layout options and visualize the overall structure of the site. After finalizing the sketches, I transitioned to Figma, a powerful design tool that enabled me to create high-fidelity mockups. Once the design was finalized, I began implementing it using React. The portfolio features:
        * A dynamic image gallery with zoom functionality.
