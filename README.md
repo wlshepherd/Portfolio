@@ -18,7 +18,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
          
 * Crypto Shark: Real-Time Cryptocurrency Tracking & Wallet App (TypeScript, React, HTML, SCSS)
     * The goal of this project was to to construct a robust and visually appealing web application UI for tracking market trends and for a crypto wallet. This project served as a challenging learning experience, allowing me to deepen my understanding of React and explore the benefits of TypeScript. Components include the following:
-        * Dynamically updated area bar charts that visualize the performance of selected cryptocurrencies.
+        * Dynamically updated area bar charts that visualize the performance of selected cryptocurrencies (utilising the d3.js library).
        
 * Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML5, Tailwind CSS, MySQL)
     * This ongoing full-stack development project, codenamed 'Phantom,' aims to create a privacy-focused social media platform inspired by X, Instagram, and Mastodon. Drawing upon the skills and knowledge acquired from previous projects, Phantom will enable users to establish anonymous accounts, allowing them to post updates, engage in discussions through comments, and exchange messages with other users. A paramount focus of this project is the robust implementation of cybersecurity measures to safeguard user data and ensure the platform's integrity.
