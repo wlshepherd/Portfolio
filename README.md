@@ -14,6 +14,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
      * This simple project was my first with the React framework, and it involved designing and developing a responsive photography portfolio. The process began with sketching out initial ideas on paper, allowing me to brainstorm layout options and visualize the overall structure of the site. After finalizing the sketches, I transitioned to Figma, a powerful design tool that enabled me to create high-fidelity mockups. Once the design was finalized, I began implementing it using React. The portfolio features:
        * A dynamic image gallery with zoom functionality.
        * Basic transitions and animations to furthermore enhance the user's experience (with the react-spring library).
+       * Custom CSS Styling for a consistent color palette and typography.
 * Crypto Shark: Real-Time Cryptocurrency Tracking & Wallet App (TypeScript, React, HTML, SCSS)
 * Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML5, Tailwind CSS, MySQL)
 
