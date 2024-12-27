@@ -16,7 +16,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 
 **Miscellaneous :warning::**
 * [**National Football League Season Simulator (Java)**](https://github.com/wlshepherd/NFL-J-Project/tree/master/src)
-    * This project marks my introduction into the fundamentals Object-Oriented Programming. This application allows users to simulate an entire NFL season, providing an engaging way to explore game outcomes based on the latest 
+    * This project marks my introduction into the fundamentals Object-Oriented Programming. This application allows users to simulate an entire NFL season, providing an engaging way to explore game outcomes based on the latest Madden NFL team ratings of the 2024/2025 season.
 
 ## Academic Qualifications :school::
 * MSc Cyber Security & Technology - Cardiff University (2023 - 2024)
