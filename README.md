@@ -15,6 +15,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
        * A dynamic image gallery with zoom functionality.
        * Basic transitions and animations to furthermore enhance the user's experience (with the react-spring library).
        * Custom CSS Styling for a consistent color palette and typography.
+         
 * Crypto Shark: Real-Time Cryptocurrency Tracking & Wallet App (TypeScript, React, HTML, SCSS)
 * Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML5, Tailwind CSS, MySQL)
 
