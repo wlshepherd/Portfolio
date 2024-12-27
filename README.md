@@ -18,7 +18,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
          
 * Crypto Shark: Real-Time Cryptocurrency Tracking & Wallet App (TypeScript, React, HTML, SCSS)
 * Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML5, Tailwind CSS, MySQL)
-    * This ongoing full-stack development project aims to combine all of my skills and knowledge learned from the previous projects to develop a fully functional privacy-based social media platform (Phantom - which is inspired by platforms such as X, Instagram and Mastodon). This platform will allow users to create an anonymous account, and to post updates and comments, and to message each other. Another major focus is to implement cyber security measures to protect user data and maintain platform integrity.
+    * This full-stack development project, codenamed 'Phantom,' aims to create a privacy-focused social media platform inspired by X, Instagram, and Mastodon. Drawing upon the skills and knowledge acquired from previous projects, Phantom will enable users to establish anonymous accounts, allowing them to post updates, engage in discussions through comments, and exchange messages with other users. A paramount focus of this project is the robust implementation of cybersecurity measures to safeguard user data and ensure the platform's integrity.
 
 **Miscellaneous :warning::**
 * [**National Football League Season Simulator (Java)**](https://github.com/wlshepherd/NFL-J-Project/tree/master/src)
