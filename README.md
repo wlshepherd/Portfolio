@@ -15,8 +15,8 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
        * A dynamic image gallery with zoom functionality.
        * Basic transitions and animations to furthermore enhance the user's experience (with the react-spring library).
        * Custom CSS styling for a consistent color palette and typography which helped to create a professional look and feel.
-         
-* Crypto Shark: Real-Time Cryptocurrency Dashboard (TypeScript, React, HTML, SCSS)
+
+* [**Crypto Shark: Real-Time Cryptocurrency Dashboard (TypeScript, React, HTML, SCSS)**](https://wlshepherd.github.io/crypto-shark/)
     * The goal of this project was to to construct a robust and visually appealing web application UI for tracking market trends and for a crypto wallet. This project served as a challenging learning experience, allowing me to deepen my understanding of React and explore the benefits of TypeScript. Components include the following:
         * Dynamically updated area bar charts that visualize the performance of selected cryptocurrencies (utilising the d3.js library).
         * Employed the CoinGecko API to retrieve historical and current cryptocurrency performance data and the most recent trending cryptocurrencies, utilizing Axios for the HTTP requests.
