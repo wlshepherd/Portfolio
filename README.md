@@ -1,7 +1,7 @@
 # Computer Science Graduate Portfolio :page_facing_up:
 
 ## Description:
-Hello! I'm William, a recent graduate with a Master's degree in Cyber Security and Technology from Cardiff University. I have a passion for technology, with interests spanning cyber security, machine learning, computer graphics, and web application development. This portfolio showcases a selection of my personal projects, highlighting my skills and experience.
+Hello! I'm William, a recent graduate with a Master's degree in Cyber Security & Technology from Cardiff University. I have a passion for technology, with interests spanning cyber security, machine learning, computer graphics, and web application development. This portfolio showcases a selection of my personal projects, highlighting my skills and experience.
 
 ## Projects: :file_folder:
 
