@@ -22,7 +22,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
         * Employed the CoinGecko API to retrieve historical and current cryptocurrency performance data and the most recent trending cryptocurrencies, utilizing Axios for the HTTP requests.
 
 * Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML5, Tailwind CSS, MySQL)
-    * This ongoing full-stack development project, codenamed 'Phantom,' aims to create a privacy-focused social media platform inspired by X, Instagram, and Mastodon. Drawing upon the skills and knowledge acquired from previous projects, Phantom will enable users to establish anonymous accounts, allowing them to post updates, engage in discussions through comments, and exchange messages with other users. A paramount focus of this project is the robust implementation of cybersecurity measures to safeguard user data and ensure the platform's integrity.
+    * This ongoing full-stack development project, codenamed 'Phantom,' aims to create a privacy-focused social media platform inspired by X, Instagram, and Mastodon. Drawing upon the skills and knowledge acquired from previous projects alongside my academic modules, Phantom will enable users to establish anonymous accounts, allowing them to post updates, engage in discussions through comments, and exchange messages with other users. A paramount focus of this project is the robust implementation of cybersecurity measures to safeguard user data and ensure the platform's integrity.
 
 **Miscellaneous :warning::**
 * [**National Football League Season Simulator (Java)**](https://github.com/wlshepherd/NFL-J-Project/tree/master/src)
