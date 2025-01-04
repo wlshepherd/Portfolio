@@ -7,6 +7,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security a
 
 **Cyber Security :lock::**
 * [**Detecting Phishing Emails with Machine Learning (Python)**](https://github.com/wlshepherd/My_Portfolio/blob/main/PhishingDetection.ipynb)
+  * This project involved 
 * Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
 
 **Web Application Design & Development :computer::**
