@@ -9,6 +9,8 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security &
 * [**Detecting Phishing Emails with Machine Learning (Python, sci-kit learn, Matplotlib, Seaborn)**](https://github.com/wlshepherd/My_Portfolio/blob/main/PhishingDetection.ipynb)
   * This project involved utilising various machine learning models, (including the Logistic Regression, Random Forest, Support Vector Machine, Naive Bayes, Decision Tree and XGBoost algorithms), to solve the problem of detecting phishing emails. By training these models on a dataset of labeled emails, the project aimed to accurately classify incoming emails as either legitimate or phishing attempts. I aimed to find out which algorithm would be the most effective in identifying phishing emails while minimizing false positives and false negatives.
 * Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
+* Offensive Security Learning Journal
+* Defensive Security Learning Journal
 
 **Web Application Design & Development :computer::**
 * [**Responsive Photography Portfolio (JavaScript, React, HTML, CSS)**](https://wlshepherd.github.io/react-first-project/)
