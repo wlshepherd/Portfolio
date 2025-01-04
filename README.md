@@ -13,6 +13,7 @@ Hello! I'm William, a recent graduate with a Master's degree in Cyber Security &
      * Active Directory
 * Defensive Security Learning Journal
      * Splunk
+       
 **Web Application Design & Development :computer::**
 * [**Responsive Photography Portfolio (JavaScript, React, HTML, CSS)**](https://wlshepherd.github.io/react-first-project/)
      * This simple front-end project was my first using the React framework, and it involved designing and developing a responsive photography portfolio. The process began with sketching out initial ideas on paper, allowing me to brainstorm layout options and visualize the overall structure of the site. After finalizing the sketches, I transitioned to Figma, a powerful design tool that enabled me to create high-fidelity mockups. Once the design was finalized, I began implementing it using React. The portfolio features:
