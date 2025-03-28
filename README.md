@@ -30,4 +30,4 @@ Hello! I'm William, a Graduate DevSecOps Developer at esure Group. I have a pass
 * BSc Computer Science - Cardiff University (2020 - 2023)
 
 ## Certificates: :page_with_curl:
-[Wiz Foundations](https://www.example.com)
+[Wiz Foundations](https://github.com/wlshepherd/Portfolio/blob/main/certificate-c2fme7mgesho-1742920080.pdf)
