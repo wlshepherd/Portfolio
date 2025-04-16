@@ -32,3 +32,5 @@ Hello! I'm William, a Graduate DevSecOps Developer at esure Group. I have a pass
 
 ## Certificates: :page_with_curl:
 [Wiz Foundations](https://github.com/wlshepherd/Portfolio/blob/main/certificate-c2fme7mgesho-1742920080.pdf)
+[Wiz Tech Essentials](https://github.com/wlshepherd/Portfolio/blob/main/certificate-c2fme7mgesho-1742920080.pdf)
+
