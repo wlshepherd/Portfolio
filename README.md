@@ -7,7 +7,7 @@ Hello! I'm William, currently a Graduate DevSecOps Developer at esure Group. I h
 
 **Cyber Security :lock::**
 * Pseudo Spyware Challenge (Python)
-* Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
+* Penetration Test Report of Metasploitable 2.0 (PTES, Kali Linux)
        
 **UI Design & Full-Stack Development :computer::**
 * Phantom: Privacy-Based Social Media Platform (Python, FastAPI, TypeScript, React, HTML5, SCSS, MySQL, Tor)
@@ -16,4 +16,3 @@ Hello! I'm William, currently a Graduate DevSecOps Developer at esure Group. I h
 **Miscellaneous :warning::**
 * [**National Football League Season Simulator (Java)**](https://github.com/wlshepherd/NFL-J-Project/tree/master/src)
     * This project marks my introduction into the fundamentals of Object-Oriented Programming. This application allows users to simulate an entire NFL season, providing an engaging way to explore game outcomes based on the latest Madden NFL team ratings of the 2024/2025 season. The game mechanics favour the major teams including the Kansas City Chiefs, Detroit Lions, however every so often a weaker team such as the Las Vegas Raiders and the Carolina Panthers are able to pull off an upset victory making the season simulations fairly realistic. This code moreover includes a playoff and Super Bowl system, allowing users to experience the excitement of postseason play. After the regular season concludes, the top teams are seeded based on their performance, leading to a series of elimination rounds that culminate in the championship game.
- 
