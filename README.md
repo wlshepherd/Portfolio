@@ -12,7 +12,7 @@ Hello! I'm William, currently a Graduate DevSecOps Developer at esure Group. I h
 * Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
        
 **UI Design & Full-Stack Development :computer::**
-* Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML5, Tailwind CSS, MySQL)
+* Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML5, Tailwind SCSS, MySQL)
     * This ongoing full-stack development project, codenamed 'Phantom,' aims to create a privacy-focused social media platform inspired by X, Instagram, and Mastodon. Drawing upon the skills and knowledge acquired from previous projects alongside my academic modules, Phantom will enable users to establish anonymous accounts, allowing them to post updates, engage in discussions through comments, and exchange messages with other users. A paramount focus of this project is the robust implementation of cybersecurity measures to safeguard user data and ensure the platform's integrity.
 
 **Miscellaneous :warning::**
