@@ -12,12 +12,6 @@ Hello! I'm William, currently a Graduate DevSecOps Developer at esure Group. I h
 * Penetration Test Report of Metasploitable 2.0 (Penetration Testing Execution Standard)
        
 **UI Design & Full-Stack Development :computer::**
-* [**Responsive Photography Portfolio (JavaScript, React, HTML, CSS)**](https://wlshepherd.github.io/react-first-project/)
-     * This simple front-end project was my first time using the React framework, and involved designing and developing a responsive photography portfolio. The process began with sketching out initial ideas on paper, allowing me to brainstorm layout options and visualize the overall structure of the site. After finalizing the sketches, I transitioned to Figma, a powerful design tool that enabled me to create high-fidelity mockups. Once the design was finalized, I began implementing it using React. The portfolio features:
-       * A dynamic image gallery with zoom functionality.
-       * Basic transitions and animations to furthermore enhance the user's experience (with the react-spring library).
-       * Custom CSS styling for a consistent color palette and typography which helped to create a professional look and feel.
-
 * Phantom: Privacy-Based Social Media Platform (Python, Django, TypeScript, React, HTML5, Tailwind CSS, MySQL)
     * This ongoing full-stack development project, codenamed 'Phantom,' aims to create a privacy-focused social media platform inspired by X, Instagram, and Mastodon. Drawing upon the skills and knowledge acquired from previous projects alongside my academic modules, Phantom will enable users to establish anonymous accounts, allowing them to post updates, engage in discussions through comments, and exchange messages with other users. A paramount focus of this project is the robust implementation of cybersecurity measures to safeguard user data and ensure the platform's integrity.
 
