@@ -7,7 +7,6 @@ Hello! I'm William, currently a Graduate DevSecOps Developer at esure Group. I h
 
 **Cyber Security :lock::**
 * Pseudo Spyware Challenge (Python)
-* Penetration Test Report of Metasploitable 2.0 (PTES, Kali Linux)
 * Penetration Test Report of IoT Device - Tapo C210 Security Camera (PTES, Kali Linux)
 
 **Full-Stack Development :computer::**
