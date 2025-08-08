@@ -7,6 +7,7 @@ Hello! I'm William, currently a Junior DevSecOps Engineer at esure Group. I have
 
 **Cyber Security :lock::**
  * Pseudo Spyware Challenge (Python)
+    * A post-exploitation simulation script built in Python, designed to emulate basic spyware behavior within a controlled, ethical lab environment. Operating on a client-server model, the script demonstrates how compromised systems can exfiltrate data — such as system info, clipboard contents, or file listings — to a remote listener. 
 * Penetration Test Report of IoT Device - Tapo C210 Security Camera (PTES, Kali Linux)
 
 **Full-Stack Development :computer::**
