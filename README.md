@@ -1,12 +1,12 @@
 # My Portfolio :page_facing_up:
 
 ## Description:
-Hello! I'm William, currently a Graduate DevSecOps Developer at esure Group. I have a passion for technology, with interests spanning cyber security, machine learning, computer graphics, and web application development. This portfolio showcases a selection of my personal projects, highlighting my skills and experience.
+Hello! I'm William, currently a Junior DevSecOps Engineer at esure Group. I have a passion for technology, with interests spanning cyber security, full-stack development, machine learning, and digital privacy. This portfolio showcases a selection of my personal projects, highlighting my skills and experience.
 
 ## Projects: :file_folder:
 
 **Cyber Security :lock::**
-* Pseudo Spyware Challenge (Python)
+ * Pseudo Spyware Challenge (Python)
 * Penetration Test Report of IoT Device - Tapo C210 Security Camera (PTES, Kali Linux)
 
 **Full-Stack Development :computer::**
