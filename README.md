@@ -9,8 +9,8 @@ Hello! I'm William, currently a Junior DevSecOps Engineer at esure Group. I have
  * Pseudo Spyware Challenge (Python, Tor)
     * A post-exploitation simulation script built in Python, designed to emulate basic spyware behavior within a controlled, ethical lab environment. Operating on a client-server model, the script demonstrates how compromised systems can exfiltrate data — such as system info, clipboard contents, or file listings — to a remote listener. This project serves as a hands-on exploration of attacker methodologies, helping defenders understand the mechanics of data leakage, persistence, and covert communication. All transmissions are structured and logged for educational analysis, with clear boundaries to ensure safe and responsible use.
   
- * Nutty Narwhal (Python, Tor)
-    * Sewell
+ * Nutty Narwhal Exploitation (Kali Linux, Ubuntu)
+    * Sewell Specia
 
 **Full-Stack Development:** :computer:
 * Phantom: Social Media Platform (Java, Spring Boot, TypeScript, React, HTML5, Tailwind CSS, Neo4j, Tor)
