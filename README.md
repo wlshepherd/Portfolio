@@ -13,7 +13,6 @@ Hello! I'm William, currently a Junior DevSecOps Engineer at esure Group. I have
  * 'Natty Narwhal' Operating System Penetration Test
     * Technologies Involved: Kali Linux, Ubuntu 11.04, Wireshark, PTES
 
-
 **Full-Stack Development:** :computer:
 * Phantom: Dark Web Social Media Platform
     * Technologies Involved: Java, Spring Boot, TypeScript, React, HTML5, Tailwind CSS, MongoDB, Tor, Figma
