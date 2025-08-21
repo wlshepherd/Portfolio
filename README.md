@@ -6,7 +6,7 @@ Hello! I'm William, currently a Junior DevSecOps Engineer at esure Group. I have
 ## Projects: :file_folder:
 
 **Cyber Security:** :lock:
- * Pseudo Spyware Challenge (Python, Tor)
+ * Pseudo Spyware Challenge (Python, Tor, Wireshark)
     * A post-exploitation simulation script built in Python, designed to emulate basic spyware behavior within a controlled, ethical lab environment. Operating on a client-server model, the script demonstrates how compromised systems can exfiltrate data — such as system info, clipboard contents, or file listings — to a remote listener. This project serves as a hands-on exploration of attacker methodologies, helping defenders understand the mechanics of data leakage, persistence, and covert communication.
   
  * 'Natty Narwhal' (Ubuntu 11.04) Operating System Penetration Test (Kali Linux, Ubuntu, PTES)
