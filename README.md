@@ -1,7 +1,7 @@
 # My Portfolio :page_facing_up:
 
 ## Description:
-Hello! I'm William, currently a Junior DevSecOps Engineer at esure Group. I have a passion for technology, with interests spanning cyber security, full-stack development, machine learning, and digital privacy. This portfolio showcases a selection of my personal projects, highlighting my skills and experience.
+Hello! I'm William, currently a Junior DevSecOps Engineer at esure Group. I have a passion for technology, with interests spanning ethical hacking, digital privacy and digital privacy. This portfolio showcases a selection of my personal projects, highlighting my skills and experience.
 
 ## Projects: :file_folder:
 
