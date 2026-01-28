@@ -1,7 +1,7 @@
 # My Portfolio :page_facing_up:
 
 ## Description:
-Hello! I'm William, currently working as a Junior DevSecOps Engineer. I have a passion for technology, with interests spanning ethical hacking, digital privacy and front-end development. This portfolio showcases a selection of my personal projects, highlighting my skills and experience.
+Hello! I'm William, currently working as a Junior DevSecOps Engineer. I have a passion for technology, with interests spanning ethical hacking, digital privacy and web-development. This portfolio showcases a selection of my personal projects, highlighting my skills and experience.
 
 ## Personal Projects: :file_folder:
 
