@@ -7,8 +7,8 @@ Hello! I'm William, currently working as a Junior DevSecOps Engineer. I have a p
 
 **Cyber Security:** :lock:
 * Pseudo Spyware Challenge
-    * Technologies Involved: Python 3.13, Tor, Wireshark
-    * A post-exploitation simulation script built in Python, designed to emulate basic spyware behavior within a controlled, ethical lab environment. Operating on a client-server model, the script demonstrates how compromised systems can exfiltrate data — such as system info, clipboard contents, or file listings — to a remote listener. This project serves as a hands-on exploration of attacker methodologies, helping defenders understand the mechanics of data leakage, persistence, and covert communication.
+    * Technologies Involved: C++, Tor, Wireshark
+    * A post-exploitation simulation script built in C++ designed to emulate basic spyware behavior within a controlled, ethical lab environment. Operating on a client-server model, the script demonstrates how compromised systems can exfiltrate data — such as system info, clipboard contents, or file listings — to a remote listener. This project serves as a hands-on exploration of attacker methodologies, helping defenders understand the mechanics of data leakage, persistence, and covert communication.
   
  * 'Natty Narwhal' Operating System Penetration Test
     * Technologies Involved: Kali Linux, Ubuntu 11.04, Wireshark, PTES
