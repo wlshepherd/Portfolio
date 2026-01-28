@@ -7,7 +7,7 @@ Hello! I'm William, currently working as a Junior DevSecOps Engineer. I have a p
 
 **1. Cyber Security:** :lock:
 * 1.1 Password Cracking Tool
-    * Technologies Involved: C++, Tor, Wireshark
+    * Technologies Involved: Python, Tkinter
 * 1.2 Pseudo Spyware Challenge
     * Technologies Involved: C++, Tor, Wireshark
     * A post-exploitation simulation script built in C++ designed to emulate basic spyware behavior within a controlled, ethical lab environment. Operating on a client-server model, the script demonstrates how compromised systems can exfiltrate data — such as system info, clipboard contents, or file listings — to a remote listener. This project serves as a hands-on exploration of attacker methodologies, helping defenders understand the mechanics of data leakage, persistence, and covert communication.
