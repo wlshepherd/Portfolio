@@ -11,7 +11,7 @@ Hello! I'm William, currently working as a Junior DevSecOps Engineer. I have a p
     * A post-exploitation simulation script built in C++ designed to emulate basic spyware behavior within a controlled, ethical lab environment. Operating on a client-server model, the script demonstrates how compromised systems can exfiltrate data — such as system info, clipboard contents, or file listings — to a remote listener. This project serves as a hands-on exploration of attacker methodologies, helping defenders understand the mechanics of data leakage, persistence, and covert communication.
   
  * 'Natty Narwhal' Operating System Penetration Test
-    * Technologies Involved: Kali Linux, Ubuntu 11.04, Wireshark, PTES
+    * Technologies Involved: Kali Linux, Ubuntu 11.04, Wireshark
     * This project focuses on conducting a structured penetration test against Ubuntu 11.04 “Natty Narwhal”, applying industry‑standard methodologies to evaluate system security, identify vulnerabilities, and analyse legacy operating‑system weaknesses. Using Kali Linux as the primary attack environment, the assessment follows the Penetration Testing Execution Standard (PTES) to ensure a rigorous, repeatable, and ethically grounded testing process.
 
 **Web Design & Development:** :computer:
