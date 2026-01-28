@@ -12,6 +12,7 @@ Hello! I'm William, currently working as a Junior DevSecOps Engineer. I have a p
   
  * 'Natty Narwhal' Operating System Penetration Test
     * Technologies Involved: Kali Linux, Ubuntu 11.04, Wireshark, PTES
+    * This project focuses on conducting a structured penetration test against Ubuntu 11.04 “Natty Narwhal”, applying industry‑standard methodologies to evaluate system security, identify vulnerabilities, and analyse legacy operating‑system weaknesses. Using Kali Linux as the primary attack environment, the assessment follows the Penetration Testing Execution Standard (PTES) to ensure a rigorous, repeatable, and ethically grounded testing process.
 
 **Web Design & Development:** :computer:
 * OnionRealm: Social Media Platform
